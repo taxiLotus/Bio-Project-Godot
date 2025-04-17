@@ -14,3 +14,8 @@ config/name="Bio Teaching Project"
 run/main_scene="uid://t6sqm5kikuw3"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://Game/Misc/global.gd"
+VocabList="*res://Game/VocabList.tscn"
