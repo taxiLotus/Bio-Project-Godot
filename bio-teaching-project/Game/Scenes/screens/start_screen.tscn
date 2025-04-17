@@ -1,0 +1,32 @@
+[gd_scene load_steps=3 format=3 uid="uid://bt4fjr3ldsqj0"]
+
+[ext_resource type="Script" uid="uid://b6djsomk0d4f7" path="res://game/scenes/start_button.gd" id="1_2eerm"]
+[ext_resource type="Script" uid="uid://djpjao26167l2" path="res://game/scenes/screens/start_screen.gd" id="1_sopfb"]
+
+[node name="StartScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_sopfb")
+
+[node name="AspectRatioContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 326.0
+offset_top = 343.0
+offset_right = 829.0
+offset_bottom = 499.0
+
+[node name="StartButton" type="Button" parent="AspectRatioContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "START"
+script = ExtResource("1_2eerm")
+
+[node name="OptionsButton" type="Button" parent="AspectRatioContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Options"
+
+[connection signal="pressed" from="AspectRatioContainer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="AspectRatioContainer/StartButton" to="AspectRatioContainer/StartButton" method="_on_pressed"]

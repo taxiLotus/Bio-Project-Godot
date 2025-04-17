@@ -1,1 +1,9 @@
-res://Game/Scenes/main.tscn
+res://game/scenes/main.tscn
+res://game/scenes/start_screen.tscn
+res://game/scenes/start_button.gd
+res://game/scenes/start_screen.gd
+res://game/scenes/after_start.tscn
+res://game/scenes/sprite_2d.gd
+res://game/scenes/screens/start_screen.tscn
+res://game/scenes/screens/after_start.tscn
+res://game/scenes/screens/start_screen.gd
