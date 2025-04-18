@@ -1,5 +1,9 @@
 extends Node
 
 var vocab = {
-	"Aorta" : "test"
+	"Aorta" : "test",
+	"Artery" : "test",
+	"Vein" : "temp"
 }
+
+var current_vocab = []

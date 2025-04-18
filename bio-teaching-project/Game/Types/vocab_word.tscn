@@ -1,13 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://c1nd716ilv6ym"]
+[gd_scene load_steps=2 format=3 uid="uid://m4vt73msk5a1"]
 
-[ext_resource type="Script" uid="uid://bdggsl7g6t4nk" path="res://Game/Types/vocab_word.gd" id="1_n0upp"]
+[ext_resource type="Script" uid="uid://gkqnfk8uwg4t" path="res://game/Types/vocab_word.gd" id="1_8mrct"]
 
-[node name="VocabWord" type="Node"]
-script = ExtResource("1_n0upp")
-metadata/_custom_type_script = "uid://bdggsl7g6t4nk"
+[node name="VocabWord" type="Button"]
+offset_left = 80.0
+offset_top = 114.0
+offset_right = 879.0
+offset_bottom = 260.0
+alignment = 0
+script = ExtResource("1_8mrct")
 
-[node name="Button" type="Button" parent="."]
-offset_left = 172.0
-offset_top = 121.0
-offset_right = 337.0
-offset_bottom = 180.0
+[connection signal="pressed" from="." to="." method="_on_pressed"]

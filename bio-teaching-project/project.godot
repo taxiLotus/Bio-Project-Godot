@@ -18,4 +18,4 @@ config/icon="res://icon.svg"
 [autoload]
 
 Global="*res://Game/Misc/global.gd"
-VocabList="*res://Game/VocabList.tscn"
+VocabList="*res://game/Misc/vocab_list.gd"

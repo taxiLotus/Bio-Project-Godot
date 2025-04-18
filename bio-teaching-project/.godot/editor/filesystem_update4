@@ -1,10 +1,4 @@
 res://game/scenes/main.tscn
 res://game/scenes/screens/start_screen.tscn
-res://game/scenes/screens/after_start.tscn
-res://Game/Misc/global.gd
-res://Game/Misc/vocab_list.gd
-res://game/scenes/screens/start_screen.gd
-res://Game/Scenes/screens/start_screen.gd
 res://Game/Scenes/screens/organ_screen.tscn
-res://Game/Types/vocab_word.gd
-res://Game/Types/vocab_word.tscn
+res://game/Types/vocab_word.tscn

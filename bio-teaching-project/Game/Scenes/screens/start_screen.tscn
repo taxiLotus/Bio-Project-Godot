@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bt4fjr3ldsqj0"]
 
-[ext_resource type="Script" uid="uid://b6djsomk0d4f7" path="res://Game/Scenes/start_button.gd" id="1_2eerm"]
-[ext_resource type="Script" uid="uid://djpjao26167l2" path="res://Game/Scenes/screens/start_screen.gd" id="1_sopfb"]
+[ext_resource type="Script" uid="uid://b6djsomk0d4f7" path="res://game/scenes/start_button.gd" id="1_2eerm"]
+[ext_resource type="Script" uid="uid://djpjao26167l2" path="res://game/scenes/screens/start_screen.gd" id="1_sopfb"]
 
 [node name="StartScreen" type="Control"]
 layout_mode = 3
