@@ -15,6 +15,7 @@ var description = Label.new()
 func _on_pressed() -> void:
 	if defOpen == false:
 		description = Label.new()
+		description.autowrap_mode = 3
 		var node_index = get_index()
 		get_parent().add_child(description)
 		description.text = "    " + VocabList.vocab[vocab_word]

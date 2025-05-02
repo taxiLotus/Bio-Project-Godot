@@ -1,5 +1,8 @@
+ColorRect
+Label
+TextureButton
+Control
 Button
-VocabWord
 VBoxContainer
 ScrollContainer
 ItemList
@@ -8,5 +11,4 @@ Node2D
 Sprite2D
 AspectRatioContainer
 CenterContainer
-Control
 Container

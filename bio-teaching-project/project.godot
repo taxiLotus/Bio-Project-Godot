@@ -19,3 +19,7 @@ config/icon="res://icon.svg"
 
 Global="*res://Game/Misc/global.gd"
 VocabList="*res://game/Misc/vocab_list.gd"
+
+[gui]
+
+theme/custom="uid://c77hi8qng7ag8"

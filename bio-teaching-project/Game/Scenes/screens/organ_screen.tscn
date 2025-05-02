@@ -2,19 +2,25 @@
 
 [ext_resource type="Script" uid="uid://tjse0npxi2f" path="res://game/scenes/screens/vocab_container.gd" id="1_vrbqd"]
 
-[node name="AfterStart" type="Node2D"]
+[node name="AfterStart" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 
 [node name="Button" type="Button" parent="."]
-offset_left = 207.0
-offset_top = 289.0
-offset_right = 789.0
-offset_bottom = 544.0
+layout_mode = 0
+offset_left = 178.0
+offset_top = 494.0
+offset_right = 695.0
+offset_bottom = 575.0
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 0
 offset_left = 892.0
 offset_top = 258.0
 offset_right = 1107.0
 offset_bottom = 595.0
+follow_focus = true
+draw_focus_border = true
 
 [node name="VocabContainer" type="VBoxContainer" parent="ScrollContainer"]
 layout_mode = 2
