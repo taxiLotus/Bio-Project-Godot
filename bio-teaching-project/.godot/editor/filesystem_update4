@@ -1,9 +1,13 @@
 res://game/scenes/main.tscn
 res://game/Misc/theme.tres
-res://game/scenes/start_button.gd
+res://game/scenes/screens/scroll_container.gd
 res://game/scenes/screens/start_screen.tscn
 res://Game/Scenes/screens/organ_screen.tscn
-res://game/Types/vocab_word.tscn
-res://game/scenes/gui.gd
-res://game/scenes/screens/start_screen.gd
+res://Game/Scenes/screens/button.gd
+res://game/scenes/screens/button.gd
 res://Game/Misc/global.gd
+res://game/scenes/gui.gd
+res://Game/Scenes/screens/scroll_container.gd
+res://game/scenes/start_button.gd
+res://game/scenes/screens/start_screen.gd
+res://game/scenes/screens/vocab_container.gd

@@ -1,11 +1,4 @@
-[gd_resource type="Theme" load_steps=12 format=3 uid="uid://c77hi8qng7ag8"]
-
-[sub_resource type="FontFile" id="FontFile_cddbs"]
-cache/0/16/0/ascent = 0.0
-cache/0/16/0/descent = 0.0
-cache/0/16/0/underline_position = 0.0
-cache/0/16/0/underline_thickness = 0.0
-cache/0/16/0/scale = 1.0
+[gd_resource type="Theme" load_steps=13 format=3 uid="uid://c77hi8qng7ag8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5a2kq"]
 content_margin_left = 4.0
@@ -41,7 +34,7 @@ content_margin_left = 4.0
 content_margin_top = 4.0
 content_margin_right = 4.0
 content_margin_bottom = 4.0
-bg_color = Color(0.225, 0.225, 0.225, 0.6)
+bg_color = Color(0.332465, 0.162721, 0.224469, 0.6)
 corner_radius_top_left = 3
 corner_radius_top_right = 3
 corner_radius_bottom_right = 3
@@ -53,7 +46,7 @@ content_margin_left = 4.0
 content_margin_top = 4.0
 content_margin_right = 4.0
 content_margin_bottom = 4.0
-bg_color = Color(0.834153, 0.256209, 0.316954, 0.584314)
+bg_color = Color(0.890196, 0.447059, 0.384314, 1)
 corner_detail = 5
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d3dux"]
@@ -77,6 +70,9 @@ cache/0/16/0/scale = 1.0
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5a2kq"]
 content_margin_left = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3l4oe"]
+bg_color = Color(0.890196, 0.447059, 0.384314, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pdate"]
 content_margin_left = 4.0
@@ -108,6 +104,9 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0, 0, 0, 1)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fge4h"]
+bg_color = Color(0.890196, 0.447059, 0.384314, 1)
+
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ub1j4"]
 draw_center = false
 border_width_left = 3
@@ -131,7 +130,6 @@ Button/constants/h_separation = 4
 Button/constants/icon_max_width = 0
 Button/constants/outline_size = 0
 Button/font_sizes/font_size = 16
-Button/fonts/font = SubResource("FontFile_cddbs")
 Button/styles/disabled = SubResource("StyleBoxFlat_5a2kq")
 Button/styles/focus = SubResource("StyleBoxFlat_n0uo0")
 Button/styles/hover = SubResource("StyleBoxFlat_ld6bc")
@@ -148,6 +146,8 @@ Label/constants/shadow_outline_size = 1
 Label/font_sizes/font_size = 16
 Label/fonts/font = SubResource("FontFile_pdate")
 Label/styles/normal = SubResource("StyleBoxEmpty_5a2kq")
+Panel/styles/panel = SubResource("StyleBoxFlat_3l4oe")
 ScrollContainer/styles/focus = SubResource("StyleBoxFlat_pdate")
 ScrollContainer/styles/panel = SubResource("StyleBoxFlat_cddbs")
+TabContainer/styles/panel = SubResource("StyleBoxFlat_fge4h")
 VScrollBar/styles/scroll = SubResource("StyleBoxFlat_ub1j4")
