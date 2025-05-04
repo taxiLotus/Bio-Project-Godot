@@ -1,24 +1,28 @@
 extends ScrollContainer
 
 var out = false
-var finalLoc = Vector2(956.0, 224)
+var start_loc = position
+var final_loc = Vector2(start_loc.x-235, start_loc.y)
 var velocity = Vector2.ZERO
+var travel_speed = 5000
 
 signal vocab_pulled_out
 
 func _on_button_pressed() -> void:
 	if out == false:
-		velocity.x = -5000
-		out = true
+		velocity.x = -(start_loc.x - final_loc.x)/((start_loc.x - final_loc.x)/travel_speed)
+		out = !out
 		vocab_pulled_out.emit()
 	else:
-		velocity.x = 5000
-		out = false
+		velocity.x = (start_loc.x - final_loc.x)/((start_loc.x - final_loc.x)/travel_speed)
+		out = !out
 		vocab_pulled_out.emit()
 
 func _process(delta):
 	position += velocity * delta
-	if out == true and position.x < finalLoc.x:
+	if out == true and position.x <= final_loc.x:
 		velocity.x = 0
-	if out == false and position.x > 1191.0:
+		position.x = final_loc.x
+	if out == false and position.x >= start_loc.x:
 		velocity.x = 0
+		position.x = start_loc.x

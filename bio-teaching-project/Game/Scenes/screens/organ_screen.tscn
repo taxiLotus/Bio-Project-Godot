@@ -26,12 +26,14 @@ script = ExtResource("1_vrbqd")
 
 [node name="Button" type="TextureButton" parent="."]
 layout_mode = 2
-offset_left = 982.0
-offset_top = 400.0
-offset_right = 1055.0
-offset_bottom = 476.0
+offset_left = 1091.0
+offset_top = 429.0
+offset_right = 1134.0
+offset_bottom = 518.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+ignore_texture_size = true
+stretch_mode = 0
 script = ExtResource("2_vrbqd")
 
 [node name="TabContainer" type="PanelContainer" parent="."]

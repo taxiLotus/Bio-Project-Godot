@@ -1,4 +1,6 @@
 res://game/scenes/main.tscn
 res://game/Misc/theme.tres
+res://game/scenes/screens/scroll_container.gd
 res://game/scenes/screens/start_screen.tscn
 res://Game/Scenes/screens/organ_screen.tscn
+res://Game/Scenes/screens/button.gd

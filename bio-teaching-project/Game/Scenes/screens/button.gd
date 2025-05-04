@@ -1,8 +1,10 @@
 extends TextureButton
 
 var out = false
-var finalLoc = Vector2(861, 488)
+var start_loc = position
+var final_loc = Vector2(start_loc.x-178, start_loc.y)
 var velocity = Vector2.ZERO
+var travel_speed = 5000
 
 var tex_norm = load("res://sprites/side_arrow.png")
 
@@ -12,15 +14,19 @@ func _ready():
 
 func _on_vocab_pulled_out() -> void:
 	if out == false:
-		velocity.x = -5000
+		velocity.x = -(start_loc.x - final_loc.x)/((start_loc.x - final_loc.x)/travel_speed)
+		flip_h = !flip_h
 		out = !out
 	else:
-		velocity.x = 5000
+		velocity.x = (start_loc.x - final_loc.x)/((start_loc.x - final_loc.x)/travel_speed)
+		flip_h = !flip_h
 		out = !out
 
 func _process(delta):
 	position += velocity * delta
-	if out == true and position.x < finalLoc.x:
+	if out == true and position.x <= final_loc.x:
 		velocity.x = 0
-	if out == false and position.x > 982.0:
+		position.x = final_loc.x
+	if out == false and position.x >= start_loc.x:
 		velocity.x = 0
+		position.x = start_loc.x
