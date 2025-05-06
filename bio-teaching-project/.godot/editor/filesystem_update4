@@ -1,10 +1,9 @@
-res://Game/Scenes/screens/organ_screen.tscn
-res://game/Misc/theme.tres
 res://game/scenes/main.tscn
+res://Game/Misc/theme.tres
 res://game/scenes/screens/start_screen.tscn
-res://Game/Scenes/screens/bottom_pannel_expand.gd
-res://Game/Scenes/tab_container.tscn
-res://Game/Scenes/tab_container.gd
-res://Game/Types/clickable_organ.tscn
-res://Game/Types/vocab_word.gd
+res://Game/Scenes/screens/organ_screen.tscn
 res://Game/Types/full_system.tscn
+res://Game/Scenes/tab_container.tscn
+res://Game/Types/button.gd
+res://game/Misc/darken_shader.gdshader
+res://game/Misc/darken_shader.tscn

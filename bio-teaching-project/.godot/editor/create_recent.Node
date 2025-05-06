@@ -1,3 +1,4 @@
+Sprite2D
 TextureRect
 AspectRatioContainer
 Container
@@ -12,4 +13,3 @@ CenterContainer
 ColorRect
 Label
 VBoxContainer
-ScrollContainer
