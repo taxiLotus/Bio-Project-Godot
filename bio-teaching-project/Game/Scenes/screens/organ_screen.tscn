@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://cpqfmm47kfr2y"]
+[gd_scene load_steps=7 format=3 uid="uid://cpqfmm47kfr2y"]
 
 [ext_resource type="Script" uid="uid://c4jqfa6o58u8g" path="res://Game/Scenes/screens/scroll_container.gd" id="1_ghesr"]
 [ext_resource type="Script" uid="uid://tjse0npxi2f" path="res://Game/Scenes/screens/vocab_container.gd" id="1_vrbqd"]
 [ext_resource type="Script" uid="uid://cvo7kt07q2cc5" path="res://Game/Scenes/screens/button.gd" id="2_vrbqd"]
+[ext_resource type="Script" uid="uid://blf5a3egwrk1k" path="res://Game/Scenes/screens/bottom_pannel_expand.gd" id="4_emm2d"]
+[ext_resource type="PackedScene" uid="uid://6sxxul5ynxuf" path="res://Game/Scenes/tab_container.tscn" id="5_lltde"]
+[ext_resource type="PackedScene" uid="uid://djskpth1jijmp" path="res://Game/Types/full_system.tscn" id="6_g0fia"]
 
 [node name="AfterStart" type="Control"]
 layout_mode = 3
@@ -24,10 +27,10 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource("1_vrbqd")
 
-[node name="Button" type="TextureButton" parent="."]
+[node name="VocabExpandButton" type="TextureButton" parent="."]
 layout_mode = 2
-offset_left = 1091.0
-offset_top = 429.0
+offset_left = 1108.0
+offset_top = 462.0
 offset_right = 1134.0
 offset_bottom = 518.0
 size_flags_horizontal = 3
@@ -36,14 +39,28 @@ ignore_texture_size = true
 stretch_mode = 0
 script = ExtResource("2_vrbqd")
 
-[node name="TabContainer" type="PanelContainer" parent="."]
+[node name="BottomPannelExpand" type="TextureButton" parent="."]
 layout_mode = 0
-offset_left = 39.0
-offset_top = 523.0
-offset_right = 773.0
-offset_bottom = 632.0
+offset_left = 57.0
+offset_top = 600.0
+offset_right = 113.0
+offset_bottom = 628.0
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_emm2d")
 
-[node name="Panel" type="Panel" parent="TabContainer"]
-layout_mode = 2
+[node name="TabContainer" parent="." instance=ExtResource("5_lltde")]
+layout_mode = 0
+offset_left = 52.0
+offset_top = 659.0
+offset_right = 704.0
+offset_bottom = 763.0
 
-[connection signal="pressed" from="Button" to="ScrollContainer" method="_on_button_pressed"]
+[node name="ClickableOrgan" parent="." instance=ExtResource("6_g0fia")]
+offset_left = -35.0
+offset_top = 28.0
+offset_right = -35.0
+offset_bottom = 28.0
+
+[connection signal="pressed" from="VocabExpandButton" to="ScrollContainer" method="_on_button_pressed"]
+[connection signal="pressed" from="BottomPannelExpand" to="BottomPannelExpand" method="_on_pressed"]

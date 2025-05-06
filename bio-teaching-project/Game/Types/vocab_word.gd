@@ -3,7 +3,8 @@ extends Button
 var vocab_word: String
 var defOpen := false
 
-
+func _ready() -> void:
+	get_node("../../../ClickableOrgan/Container/Atria").pressed.connect(_on_organ_pressed)
 
 func set_word(word: String):
 	vocab_word = word
@@ -22,6 +23,11 @@ func _on_pressed() -> void:
 		get_parent().move_child(description, node_index+1)
 		defOpen = true
 	else:
+		description.queue_free()
+		defOpen = false
+	
+func _on_organ_pressed():
+	if defOpen == true:
 		description.queue_free()
 		defOpen = false
 	

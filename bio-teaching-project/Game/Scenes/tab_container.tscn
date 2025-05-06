@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://6sxxul5ynxuf"]
+
+[ext_resource type="Script" uid="uid://dm2aktxduvk4g" path="res://Game/Scenes/tab_container.gd" id="1_bmghs"]
+
+[node name="TabContainer" type="PanelContainer"]
+offset_left = 39.0
+offset_top = 701.0
+offset_right = 654.0
+offset_bottom = 778.0
+script = ExtResource("1_bmghs")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 2

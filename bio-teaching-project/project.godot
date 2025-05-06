@@ -20,6 +20,10 @@ config/icon="res://icon.svg"
 Global="*res://Game/Misc/global.gd"
 VocabList="*res://game/Misc/vocab_list.gd"
 
+[display]
+
+window/stretch/mode="canvas_items"
+
 [gui]
 
 theme/custom="uid://c77hi8qng7ag8"

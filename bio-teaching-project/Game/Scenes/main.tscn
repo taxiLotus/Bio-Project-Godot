@@ -1,20 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://t6sqm5kikuw3"]
+[gd_scene load_steps=2 format=3 uid="uid://t6sqm5kikuw3"]
 
 [ext_resource type="PackedScene" uid="uid://bt4fjr3ldsqj0" path="res://Game/Scenes/screens/start_screen.tscn" id="1_20rwd"]
-[ext_resource type="Script" uid="uid://8sl1bm21degs" path="res://Game/Scenes/gui.gd" id="1_jbjdl"]
 
 [node name="Main" type="Node2D"]
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 1149.0
-offset_bottom = 640.0
+offset_bottom = 648.0
 color = Color(0.890196, 0.447059, 0.384314, 1)
 
 [node name="ColorRect2" type="ColorRect" parent="."]
 offset_left = 15.0
 offset_top = 14.0
 offset_right = 1134.0
-offset_bottom = 626.0
+offset_bottom = 632.0
 color = Color(0.996078, 0.952941, 0.87451, 1)
 
 [node name="World" type="Node2D" parent="."]
@@ -24,6 +23,5 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
-script = ExtResource("1_jbjdl")
 
 [node name="StartScreen" parent="GUI" instance=ExtResource("1_20rwd")]
