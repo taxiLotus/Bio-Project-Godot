@@ -15,3 +15,6 @@ res://Game/Types/button.gd
 res://Game/Types/vocab_word.gd
 res://Game/Scenes/screens/organ_screen.gd
 res://Game/Types/organ_sprite.gd
+res://Game/Types/atrium.gd
+res://organ_bus.gd
+res://Game/Types/ventricle.gd

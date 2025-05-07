@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 
 Global="*res://Game/Misc/global.gd"
 VocabList="*res://game/Misc/vocab_list.gd"
+OrganBus="*res://organ_bus.gd"
 
 [display]
 

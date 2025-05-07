@@ -14,15 +14,11 @@ func _ready() -> void:
 	connect_signals()
 	
 func connect_signals():
-	var check_organs : int = 0
-	while check_organs < all_organ_parts.size():
-		var organ = all_organ_parts[check_organs]
-		organ.connect("mouse_entered", _on_organ_mouse_entered)
-		organ.connect("mouse_exited", _on_organ_mouse_exited)
-		organ.connect("focus_entered", _on_organ_focus_entered)
-		organ.connect("focus_exited", _on_organ_focus_exited)
-		organ.connect("pressed", _on_organ_pressed)
-		check_organs += 1
+	OrganBus.mouse_entered.connect(_on_organ_mouse_entered)
+	OrganBus.mouse_exited.connect(_on_organ_mouse_exited)
+	OrganBus.focus_entered.connect(_on_organ_focus_entered)
+	OrganBus.focus_exited.connect(_on_organ_focus_exited)
+	OrganBus.pressed.connect(_on_organ_pressed)
 
 func get_all_children(in_node_path: NodePath, arr := []):
 	var in_node = get_node(in_node_path)
@@ -35,10 +31,15 @@ func get_all_children(in_node_path: NodePath, arr := []):
 
 func _on_organ_pressed() -> void:
 	emit_signal("organ_pressed")
+	hovering = true
+	shade_var = 0.15
+	if(material.get_shader_parameter('difference') <= shade_var):
+		shade_inc = 0.015
+		darkening = true
 
 func _on_organ_mouse_entered() -> void:
 	hovering = true
-	shade_var = 0.1
+	shade_var = 0.15
 	if(material.get_shader_parameter('difference') <= shade_var):
 		shade_inc = 0.015
 		darkening = true
@@ -75,7 +76,7 @@ func _process(delta: float) -> void:
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("click"):
 		if hovering == false:
-			release_focus()
+			grab_focus()
 			shade_var = 0
 			if(material.get_shader_parameter('difference') >= shade_var):
 				shade_inc = -0.015

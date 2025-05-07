@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://5dss08qcxcon"
+path="res://.godot/imported/lung_click.png-7e67af45c5a934d3ade06b68ec37e7d6.res"
+
+[deps]
+
+source_file="res://sprites/lung_click.png"
+dest_files=["res://.godot/imported/lung_click.png-7e67af45c5a934d3ade06b68ec37e7d6.res"]
+
+[params]
+
+create_from=0
+threshold=0.5
