@@ -1,17 +1,18 @@
-[gd_scene load_steps=8 format=3 uid="uid://djskpth1jijmp"]
+[gd_scene load_steps=9 format=3 uid="uid://djskpth1jijmp"]
 
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/Misc/darken_shader.gdshader" id="1_2rxd4"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="1_2rxd4"]
 [ext_resource type="Texture2D" uid="uid://by8inul8uc4p5" path="res://sprites/full_system.png" id="1_3pbw1"]
-[ext_resource type="Texture2D" uid="uid://r1gpnyynce33" path="res://sprites/atrium_hover.png" id="2_1sk6f"]
 [ext_resource type="BitMap" uid="uid://bapccbeoqsysf" path="res://sprites/atrium_click.png" id="2_ptmac"]
-[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://game/Types/button.gd" id="2_v8rwn"]
-[ext_resource type="Script" uid="uid://r1pfq1v0cxwx" path="res://game/Types/atria.gd" id="6_uwrxs"]
+[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://Game/Types/organ_sprite.gd" id="2_v8rwn"]
+[ext_resource type="Texture2D" uid="uid://o2ct01lg0q7g" path="res://sprites/atrium_hover.png" id="4_ls7lw"]
+[ext_resource type="Texture2D" uid="uid://m1ooisu4g3l2" path="res://sprites/ventricle_hover.png" id="6_uwrxs"]
+[ext_resource type="BitMap" uid="uid://cf17pei7iejat" path="res://sprites/ventricle_click.png" id="7_ls7lw"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_uwrxs"]
 shader = ExtResource("1_2rxd4")
 shader_parameter/difference = 0.0
 
-[node name="ClickableOrgan" type="Control"]
+[node name="FullSystem" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 
@@ -20,22 +21,34 @@ layout_mode = 0
 offset_right = 878.0
 offset_bottom = 520.0
 
-[node name="Button" type="TextureRect" parent="Container"]
+[node name="FullSystemSprite" type="TextureRect" parent="Container"]
 material = SubResource("ShaderMaterial_uwrxs")
 layout_mode = 2
+focus_mode = 1
 texture = ExtResource("1_3pbw1")
 expand_mode = 1
 script = ExtResource("2_v8rwn")
 
-[node name="Atria" type="TextureButton" parent="Container"]
+[node name="Atrium" type="TextureButton" parent="Container"]
 layout_mode = 2
-texture_hover = ExtResource("2_1sk6f")
-texture_focused = ExtResource("2_1sk6f")
+texture_pressed = ExtResource("4_ls7lw")
+texture_hover = ExtResource("4_ls7lw")
+texture_focused = ExtResource("4_ls7lw")
 texture_click_mask = ExtResource("2_ptmac")
 ignore_texture_size = true
 stretch_mode = 0
-script = ExtResource("6_uwrxs")
 
-[connection signal="mouse_entered" from="Container/Atria" to="Container/Button" method="_on_atria_mouse_entered"]
-[connection signal="mouse_exited" from="Container/Atria" to="Container/Button" method="_on_atria_mouse_exited"]
-[connection signal="pressed" from="Container/Atria" to="Container/Button" method="_on_atria_pressed"]
+[node name="Ventricle" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("6_uwrxs")
+texture_hover = ExtResource("6_uwrxs")
+texture_focused = ExtResource("6_uwrxs")
+texture_click_mask = ExtResource("7_ls7lw")
+ignore_texture_size = true
+stretch_mode = 0
+
+[connection signal="focus_entered" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_focus_entered"]
+[connection signal="focus_exited" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_focus_exited"]
+[connection signal="mouse_entered" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_mouse_exited"]
+[connection signal="pressed" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_pressed"]

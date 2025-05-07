@@ -6,4 +6,12 @@ res://Game/Scenes/screens/organ_screen.tscn
 res://Game/Types/full_system.tscn
 res://game/Misc/darken_shader.tscn
 res://game/Types/vocab_word.tscn
-res://game/Types/vocab_word.gd
+res://Game/Misc/darken_shader.gdshader
+res://Game/Misc/hover_shader.gdshader
+res://Game/Misc/darken_shader.tscn
+res://Game/Scenes/screens/button.gd
+res://Game/Scenes/screens/bottom_pannel_expand.gd
+res://Game/Types/button.gd
+res://Game/Types/vocab_word.gd
+res://Game/Scenes/screens/organ_screen.gd
+res://Game/Types/organ_sprite.gd

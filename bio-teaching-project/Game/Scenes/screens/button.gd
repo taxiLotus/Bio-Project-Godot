@@ -30,3 +30,10 @@ func _process(delta):
 	if out == false and position.x >= start_loc.x:
 		velocity.x = 0
 		position.x = start_loc.x
+
+
+func _on_mouse_entered() -> void:
+	material.set_shader_parameter('difference', 0.1)
+
+func _on_mouse_exited() -> void:
+	material.set_shader_parameter('difference', 0)

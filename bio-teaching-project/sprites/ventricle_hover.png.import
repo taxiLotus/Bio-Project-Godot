@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dk6hh1tovvsbn"
-path="res://.godot/imported/Caret-PNG-Image-470481549.png-2fe04d031ef0ed65e996c23c20d83eb2.ctex"
+uid="uid://m1ooisu4g3l2"
+path="res://.godot/imported/ventricle_hover.png-7097f82129b903e303c7a0e8fa4e8070.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/Caret-PNG-Image-470481549.png"
-dest_files=["res://.godot/imported/Caret-PNG-Image-470481549.png-2fe04d031ef0ed65e996c23c20d83eb2.ctex"]
+source_file="res://sprites/ventricle_hover.png"
+dest_files=["res://.godot/imported/ventricle_hover.png-7097f82129b903e303c7a0e8fa4e8070.ctex"]
 
 [params]
 

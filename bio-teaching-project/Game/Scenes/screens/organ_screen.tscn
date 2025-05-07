@@ -1,12 +1,20 @@
-[gd_scene load_steps=8 format=3 uid="uid://cpqfmm47kfr2y"]
+[gd_scene load_steps=10 format=3 uid="uid://cpqfmm47kfr2y"]
 
-[ext_resource type="Script" uid="uid://ct6k550evtolw" path="res://game/scenes/screens/organ_screen.gd" id="1_b6hia"]
-[ext_resource type="Script" uid="uid://c4jqfa6o58u8g" path="res://game/scenes/screens/scroll_container.gd" id="1_ghesr"]
-[ext_resource type="Script" uid="uid://tjse0npxi2f" path="res://game/scenes/screens/vocab_container.gd" id="1_vrbqd"]
-[ext_resource type="Script" uid="uid://cvo7kt07q2cc5" path="res://game/scenes/screens/button.gd" id="2_vrbqd"]
-[ext_resource type="Script" uid="uid://blf5a3egwrk1k" path="res://game/scenes/screens/bottom_pannel_expand.gd" id="4_emm2d"]
-[ext_resource type="PackedScene" uid="uid://6sxxul5ynxuf" path="res://game/scenes/tab_container.tscn" id="5_lltde"]
-[ext_resource type="PackedScene" uid="uid://djskpth1jijmp" path="res://game/Types/full_system.tscn" id="6_g0fia"]
+[ext_resource type="Script" uid="uid://ct6k550evtolw" path="res://Game/Scenes/screens/organ_screen.gd" id="1_b6hia"]
+[ext_resource type="Script" uid="uid://c4jqfa6o58u8g" path="res://Game/Scenes/screens/scroll_container.gd" id="1_ghesr"]
+[ext_resource type="Script" uid="uid://tjse0npxi2f" path="res://Game/Scenes/screens/vocab_container.gd" id="1_vrbqd"]
+[ext_resource type="Script" uid="uid://cvo7kt07q2cc5" path="res://Game/Scenes/screens/button.gd" id="2_vrbqd"]
+[ext_resource type="Script" uid="uid://blf5a3egwrk1k" path="res://Game/Scenes/screens/bottom_pannel_expand.gd" id="4_emm2d"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="5_4assd"]
+[ext_resource type="PackedScene" uid="uid://6sxxul5ynxuf" path="res://Game/Scenes/tab_container.tscn" id="5_lltde"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_85j8a"]
+shader = ExtResource("5_4assd")
+shader_parameter/difference = 0.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_4assd"]
+shader = ExtResource("5_4assd")
+shader_parameter/difference = 0.0
 
 [node name="AfterStart" type="Control"]
 layout_mode = 3
@@ -29,13 +37,8 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 script = ExtResource("1_vrbqd")
 
-[node name="ClickableOrgan" parent="." instance=ExtResource("6_g0fia")]
-offset_left = 28.0
-offset_top = 26.0
-offset_right = 28.0
-offset_bottom = 26.0
-
 [node name="VocabExpandButton" type="TextureButton" parent="."]
+material = SubResource("ShaderMaterial_85j8a")
 layout_mode = 2
 offset_left = 1108.0
 offset_top = 462.0
@@ -48,6 +51,7 @@ stretch_mode = 0
 script = ExtResource("2_vrbqd")
 
 [node name="BottomPannelExpand" type="TextureButton" parent="."]
+material = SubResource("ShaderMaterial_4assd")
 layout_mode = 0
 offset_left = 57.0
 offset_top = 600.0
@@ -64,5 +68,9 @@ offset_top = 659.0
 offset_right = 704.0
 offset_bottom = 763.0
 
+[connection signal="mouse_entered" from="VocabExpandButton" to="VocabExpandButton" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="VocabExpandButton" to="VocabExpandButton" method="_on_mouse_exited"]
 [connection signal="pressed" from="VocabExpandButton" to="ScrollContainer" method="_on_button_pressed"]
+[connection signal="mouse_entered" from="BottomPannelExpand" to="BottomPannelExpand" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="BottomPannelExpand" to="BottomPannelExpand" method="_on_mouse_exited"]
 [connection signal="pressed" from="BottomPannelExpand" to="BottomPannelExpand" method="_on_pressed"]

@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://cf17pei7iejat"
+path="res://.godot/imported/ventricle_click.png-8dd47033b7be5252ab2fab4cf79fa755.res"
+
+[deps]
+
+source_file="res://sprites/ventricle_click.png"
+dest_files=["res://.godot/imported/ventricle_click.png-8dd47033b7be5252ab2fab4cf79fa755.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

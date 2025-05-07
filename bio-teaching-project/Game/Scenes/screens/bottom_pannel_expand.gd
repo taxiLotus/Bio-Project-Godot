@@ -30,3 +30,9 @@ func _on_pressed() -> void:
 		velocity.y = (start_loc.y - final_loc.y)/((start_loc.y - final_loc.y)/travel_speed)
 		flip_v = !flip_v
 		out = !out
+		
+func _on_mouse_entered() -> void:
+	material.set_shader_parameter('difference', 0.1)
+
+func _on_mouse_exited() -> void:
+	material.set_shader_parameter('difference', 0)

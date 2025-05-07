@@ -5,7 +5,8 @@ var defOpen := false
 var all_organ_parts
 
 func _ready() -> void:
-	all_organ_parts = get_all_children("../../../ClickableOrgan/Container")
+	var organ_path = get_node("../../../").get_child(0).get_child(0).get_path()
+	all_organ_parts = get_all_children(organ_path)
 	connect_signals()
 	alignment = HORIZONTAL_ALIGNMENT_CENTER
 
@@ -13,7 +14,7 @@ func connect_signals():
 	var check_organs : int = 0
 	while check_organs < all_organ_parts.size():
 		var organ = all_organ_parts[check_organs]
-		organ.connect("pressed", _on_organ_pressed)
+		organ.connect("pressed", _on_organ_pressed.bind(organ.name))
 		check_organs += 1
 
 func get_all_children(in_node_path: NodePath, arr := []):
@@ -44,8 +45,17 @@ func _on_pressed() -> void:
 		description.queue_free()
 		defOpen = false
 	
-func _on_organ_pressed():
+func _on_organ_pressed(organ_name):
 	if defOpen == true:
 		description.queue_free()
 		defOpen = false
+		
+	if organ_name == vocab_word:
+		description = Label.new()
+		description.autowrap_mode = 3
+		var node_index = get_index()
+		get_parent().add_child(description)
+		description.text = "    " + VocabList.vocab[vocab_word]
+		get_parent().move_child(description, node_index+1)
+		defOpen = true
 	
