@@ -7,6 +7,7 @@ var all_organ_parts
 func _ready() -> void:
 	all_organ_parts = get_all_children("../../../ClickableOrgan/Container")
 	connect_signals()
+	alignment = HORIZONTAL_ALIGNMENT_CENTER
 
 func connect_signals():
 	var check_organs : int = 0
@@ -25,7 +26,7 @@ func get_all_children(in_node_path: NodePath, arr := []):
 
 func set_word(word: String):
 	vocab_word = word
-	text = " " + vocab_word
+	text = "" + vocab_word
 	
 var description = Label.new()
 

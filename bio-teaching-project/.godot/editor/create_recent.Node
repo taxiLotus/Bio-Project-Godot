@@ -1,9 +1,10 @@
+RichTextLabel
+Button
 Sprite2D
 TextureRect
 AspectRatioContainer
 Container
 TextureButton
-Button
 Control
 PanelContainer
 Panel
@@ -12,4 +13,3 @@ GridContainer
 CenterContainer
 ColorRect
 Label
-VBoxContainer

@@ -1,10 +1,9 @@
 res://game/scenes/main.tscn
 res://game/Misc/theme.tres
 res://game/Misc/darken_shader.gdshader
-res://game/Types/vocab_word.gd
 res://game/scenes/screens/start_screen.tscn
 res://Game/Scenes/screens/organ_screen.tscn
 res://Game/Types/full_system.tscn
-res://Game/Scenes/tab_container.tscn
 res://game/Misc/darken_shader.tscn
 res://game/Types/vocab_word.tscn
+res://game/Types/vocab_word.gd
