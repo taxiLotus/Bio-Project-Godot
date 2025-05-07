@@ -45,7 +45,7 @@ var vocab = {
 	"Vasodilation" : "An increase in the diameter of blood vessels caused by relaxation of smooth muscles in the vessel walls.",
 	"Hypertension" : "A disorder in which blood pressure remains abnormally high.",
 	"Surfactant" : "A substance secreted by alveoli that decreases surface tension in the fluid that coats the alveoli.",
-	"Capillaries" : "A microscopic blood vessel that penetrates the tissues and consists of a single layer of endothelial cells that allows exchange between the blood and interstitial fluid.",
+	"Capillary" : "A microscopic blood vessel that penetrates the tissues and consists of a single layer of endothelial cells that allows exchange between the blood and interstitial fluid.",
 	"Vasoconstriction" : "A decrease in the diameter of blood vessels caused by contraction of smooth muscles in the vessel walls.",
 	"Diastole" : "The stage of the cardiac cycle in which a heart chamber is relaxed and fills with blood.",
 	"Atrioventricular (AV) Node" : "A region of specialized heart muscle tissue between the left and right atria where electrical impulses are delayed for about 0.1 second before spreading to both ventricles and causing them to contract.",

@@ -1,10 +1,11 @@
-[gd_scene load_steps=7 format=3 uid="uid://djskpth1jijmp"]
+[gd_scene load_steps=8 format=3 uid="uid://djskpth1jijmp"]
 
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="1_2rxd4"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/Misc/darken_shader.gdshader" id="1_2rxd4"]
 [ext_resource type="Texture2D" uid="uid://by8inul8uc4p5" path="res://sprites/full_system.png" id="1_3pbw1"]
 [ext_resource type="Texture2D" uid="uid://r1gpnyynce33" path="res://sprites/atrium_hover.png" id="2_1sk6f"]
 [ext_resource type="BitMap" uid="uid://bapccbeoqsysf" path="res://sprites/atrium_click.png" id="2_ptmac"]
-[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://Game/Types/button.gd" id="2_v8rwn"]
+[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://game/Types/button.gd" id="2_v8rwn"]
+[ext_resource type="Script" uid="uid://r1pfq1v0cxwx" path="res://game/Types/atria.gd" id="6_uwrxs"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_uwrxs"]
 shader = ExtResource("1_2rxd4")
@@ -29,9 +30,11 @@ script = ExtResource("2_v8rwn")
 [node name="Atria" type="TextureButton" parent="Container"]
 layout_mode = 2
 texture_hover = ExtResource("2_1sk6f")
+texture_focused = ExtResource("2_1sk6f")
 texture_click_mask = ExtResource("2_ptmac")
 ignore_texture_size = true
 stretch_mode = 0
+script = ExtResource("6_uwrxs")
 
 [connection signal="mouse_entered" from="Container/Atria" to="Container/Button" method="_on_atria_mouse_entered"]
 [connection signal="mouse_exited" from="Container/Atria" to="Container/Button" method="_on_atria_mouse_exited"]

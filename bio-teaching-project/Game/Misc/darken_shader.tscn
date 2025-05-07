@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bos2bftnqg46v"]
 
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="1_wqsvu"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/Misc/darken_shader.gdshader" id="1_wqsvu"]
 [ext_resource type="Texture2D" uid="uid://cjnq7sifwrkto" path="res://icon.svg" id="2_rutvf"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_r452i"]

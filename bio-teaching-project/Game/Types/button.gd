@@ -9,18 +9,10 @@ func _on_atria_mouse_entered() -> void:
 	if(material.get_shader_parameter('difference') <= shade_var):
 		shade_inc = 0.015
 		darkening = true
-	else:
-		shade_inc = -0.015
-		darkening = false
-		
-		
 
 func _on_atria_mouse_exited() -> void:
 	shade_var = 0
-	if(material.get_shader_parameter('difference') <= shade_var):
-		shade_inc = 0.015
-		darkening = true
-	else:
+	if(material.get_shader_parameter('difference') >= shade_var):
 		shade_inc = -0.015
 		darkening = false
 	
