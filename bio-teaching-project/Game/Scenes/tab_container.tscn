@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://6sxxul5ynxuf"]
 
-[ext_resource type="Script" uid="uid://dm2aktxduvk4g" path="res://game/scenes/tab_container.gd" id="1_bmghs"]
+[ext_resource type="Script" uid="uid://dm2aktxduvk4g" path="res://Game/Scenes/tab_container.gd" id="1_bmghs"]
 
 [node name="TabContainer" type="PanelContainer"]
 offset_left = 39.0
