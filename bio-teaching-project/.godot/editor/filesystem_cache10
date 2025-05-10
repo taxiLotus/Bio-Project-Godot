@@ -1,58 +1,57 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746614954
-Bio Teaching Project.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::7666866453797370801::1746502413::1746502456::1::::<><><>0<>0<>7ba37ab56ecfb3a123719df17abc4401<>res://.godot/imported/Bio Teaching Project.apple-touch-icon.png-379a90c545899f6408766e440c3a1430.ctex::
-Bio Teaching Project.icon.png::CompressedTexture2D/CompressedTexture2D::2180763828898710532::1746502413::1746502456::1::::<><><>0<>0<>e7d919a5ce0b8703aa99808dab92bd84<>res://.godot/imported/Bio Teaching Project.icon.png-fe03f42ebf50d83798b29a794fba92b2.ctex::
-Bio Teaching Project.png::CompressedTexture2D/CompressedTexture2D::8441602513231427936::1746502413::1746502456::1::::<><><>0<>0<>9fad59b16325940b0cdf0f0f5cbb67e0<>res://.godot/imported/Bio Teaching Project.png-a0dd8387f43c46f700c85cef3b31b5c9.ctex::
-export_presets.cfg::TextFile/TextFile::-1::1746502413::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D/CompressedTexture2D::5432407446256485572::1744793715::1744793747::1::::<><><>0<>0<>6dfaeacbb58872081137af2d3e5bff38<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-organ_bus.gd::GDScript/GDScript::4483504119288394560::1746614601::0::1::::<>Node<><>0<>0<><>::
-::res://Assets/::1744793920
-::res://Assets/Backgrounds/::1744793920
-::res://Assets/Sprites/::1744793911
-::res://exports/::1746502413
-::res://exports/web/::1746502413
-::res://Game/::1744889318
-::res://Game/Misc/::1746617629
-darken_shader.gdshader::Shader::3525316353978556801::1746617629::0::1::::<><><>0<>0<><>::
-darken_shader.tscn::PackedScene/PackedScene::3407864731377576759::1746607283::0::1::::<><><>0<>0<><>::uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://cjnq7sifwrkto::::res://icon.svg
-global.gd::GDScript/GDScript::1326740354383515739::1746266927::0::1::::<>Node<><>0<>0<><>::
-Kiwi Fruit.otf::FontFile/FontFile::65330349062928250::1746266465::1746607063::1::::<><><>0<>0<>b852bc340cd9ae011765f08f545b51a5<>res://.godot/imported/Kiwi Fruit.otf-2d2a3a268b737e672415034004b1040f.fontdata::
-theme.tres::Theme/Theme::7085385515821117549::1746607068::0::1::::<><><>0<>0<><>::
-vocab_list.gd::GDScript/GDScript::1655487725923280986::1746606959::0::1::::<>Node<><>0<>0<><>::
-::res://Game/Scenes/::1746617629
-gui.gd::GDScript/GDScript::2354105029512730118::1746266465::0::1::::<>Control<><>0<>0<><>::
-main.tscn::PackedScene::1398705895160539112::1746617629::0::1::::<><><>0<>0<><>::uid://bt4fjr3ldsqj0::::res://Game/Scenes/screens/start_screen.tscn
-panel.gd::GDScript/GDScript::5922435674094525878::1746474393::0::1::::<>Panel<><>0<>0<><>::
-start_button.gd::GDScript/GDScript::4569047321311939878::1746266927::0::1::::<>TextureButton<><>0<>0<><>::
-tab_container.gd::GDScript/GDScript::8057285265672379920::1746476238::0::1::::<>PanelContainer<><>0<>0<><>::
-tab_container.tscn::PackedScene/PackedScene::2214451585301045617::1746606959::0::1::::<><><>0<>0<><>::uid://dm2aktxduvk4g::::res://game/scenes/tab_container.gd
-::res://Game/Scenes/screens/::1746617629
-after_start.tscn::PackedScene/PackedScene::4988821731076608009::1744888980::0::1::::<><><>0<>0<><>::
-bottom_pannel_expand.gd::GDScript/GDScript::3170642839400464334::1746607618::0::1::::<>TextureButton<><>0<>0<><>::
-button.gd::GDScript/GDScript::6277670212089436546::1746607561::0::1::::<>TextureButton<><>0<>0<><>::
-organ_screen.gd::GDScript/GDScript::6171087465160664812::1746612275::0::1::::<>Control<><>0<>0<><>::
-organ_screen.tscn::PackedScene::5859029757059379194::1746617629::0::1::::<><><>0<>0<><>::uid://ct6k550evtolw::::res://Game/Scenes/screens/organ_screen.gd<>uid://c4jqfa6o58u8g::::res://Game/Scenes/screens/scroll_container.gd<>uid://tjse0npxi2f::::res://Game/Scenes/screens/vocab_container.gd<>uid://cvo7kt07q2cc5::::res://Game/Scenes/screens/button.gd<>uid://blf5a3egwrk1k::::res://Game/Scenes/screens/bottom_pannel_expand.gd<>uid://bqhxpe04s3u7r::::res://Game/Misc/darken_shader.gdshader<>uid://6sxxul5ynxuf::::res://Game/Scenes/tab_container.tscn
-scroll_container.gd::GDScript/GDScript::6827877682095911328::1746326312::0::1::::<>ScrollContainer<><>0<>0<><>::
-start_screen.gd::GDScript/GDScript::7822474541548509385::1746606959::0::1::::<>Control<><>0<>0<><>::
-start_screen.tscn::PackedScene::3780196261448427307::1746617629::0::1::::<><><>0<>0<><>::uid://b6djsomk0d4f7::::res://Game/Scenes/start_button.gd<>uid://djpjao26167l2::::res://Game/Scenes/screens/start_screen.gd
-vocab_container.gd::GDScript/GDScript::39802023877452739::1746606959::0::1::::<>VBoxContainer<><>0<>0<><>::
-::res://Game/Types/::1746617629
-atrium.gd::GDScript/GDScript::8112356837909727006::1746614601::0::1::::<>TextureButton<><>0<>0<><>::
-full_system.tscn::PackedScene::7828755410181865627::1746617629::0::1::::<><><>0<>0<><>::uid://bqhxpe04s3u7r::::res://Game/Misc/darken_shader.gdshader<>uid://by8inul8uc4p5::::res://sprites/full_system.png<>uid://bapccbeoqsysf::::res://sprites/atrium_click.png<>uid://cgkq4rfvoyif3::::res://Game/Types/organ_sprite.gd<>uid://o2ct01lg0q7g::::res://sprites/atrium_hover.png<>uid://dntxljwu3h5mw::::res://Game/Types/atrium.gd<>uid://m1ooisu4g3l2::::res://sprites/ventricle_hover.png<>uid://cf17pei7iejat::::res://sprites/ventricle_click.png<>uid://fxjw0vu7urr0::::res://Game/Types/ventricle.gd<>uid://3hbueiu386ys::::res://sprites/lung_hover.png<>uid://5dss08qcxcon::::res://sprites/lung_click.png
-organ_sprite.gd::GDScript::5215642368257279462::1746616348::0::1::::<>TextureRect<><>0<>0<><>::
-ventricle.gd::GDScript::399011993411266559::1746614987::0::1::::<>TextureButton<><>0<>0<><>::
-texture_button.gd::GDScript/GDScript::1420850938168456264::1746479490::0::1::::<>TextureButton<><>0<>0<><>::
-vocab_word.gd::GDScript/GDScript::442771806165582357::1746612159::0::1::::<>Button<><>0<>0<><>::
-vocab_word.tscn::PackedScene::903443790027846018::1746617629::0::1::::<><><>0<>0<><>::uid://gkqnfk8uwg4t::::res://Game/Types/vocab_word.gd
-::res://sprites/::1746617548
-atrium_click.png::BitMap/BitMap::2417511414938121369::1746477770::1746478168::1::::<><><>0<>0<>0d0ce748ea9b97127c0dd9c83d0dc083<>res://.godot/imported/atrium_click.png-871d43b91e1e188e217cb22f08085d90.res::
-atrium_hover.png::CompressedTexture2D/CompressedTexture2D::1038538728119271566::1746608407::1746608444::1::::<><><>0<>0<>9b30d3b3685a4de287ed0301df5d76bf<>res://.godot/imported/atrium_hover.png-48aa429fa5373aca83e670aa42e664f8.ctex::
-bottom_arrow.png::CompressedTexture2D/CompressedTexture2D::4337233066073426445::1746474253::1746474258::1::::<><><>0<>0<>b20ff511eea33d15ee3d025ed4276757<>res://.godot/imported/bottom_arrow.png-f2f3a1c9cac3b099a48f023ef3ddc38b.ctex::
-full_system.png::CompressedTexture2D/CompressedTexture2D::4139587417138806080::1746476572::1746476594::1::::<><><>0<>0<>3f804730c2e75b01bc2d8fe1d0f2726f<>res://.godot/imported/full_system.png-ef313c3c248465e002b1031cad725baa.ctex::
-heart_norm.png::CompressedTexture2D/CompressedTexture2D::3620252278517526356::1746266465::1746266556::1::::<><><>0<>0<>4e780a66881bc304e698bfe41e6d260a<>res://.godot/imported/heart_norm.png-627588c1113433d3176cf6304c035a40.ctex::
-lung_click.png::BitMap::2112984857356080905::1746616853::1746616866::1::::<><><>0<>0<>4f8c4efa0cf6465f3d5054df1dc21203<>res://.godot/imported/lung_click.png-7e67af45c5a934d3ade06b68ec37e7d6.res::
-lung_hover.png::CompressedTexture2D::1979834922413485062::1746617543::1746617655::1::::<><><>0<>0<>fa3bfd6713963ca1d331fa95a5deb92f<>res://.godot/imported/lung_hover.png-5d1bb6fad8dc5abeb02e53414e7e9bff.ctex::
-lung_norm.png::CompressedTexture2D::5480865762846636738::1746617548::1746617548::1::::<><><>0<>0<>ccfd802d5edfb037ef11b1b8d5bfe049<>res://.godot/imported/lung_norm.png-0f7904c37a27619e1aced5b5543a0fb2.ctex::
-side_arrow.png::CompressedTexture2D/CompressedTexture2D::6352963095607610964::1746267013::1746267019::1::::<><><>0<>0<>5aa2e86c3f844dc1cc3a4f319ad596ea<>res://.godot/imported/side_arrow.png-94a7b91a31e2c73a06cb1ff9f7be2098.ctex::
-ventricle_click.png::BitMap/BitMap::5179429361775646295::1746613141::1746613154::1::::<><><>0<>0<>aadd6368def0d0b834d20b14e150532f<>res://.godot/imported/ventricle_click.png-8dd47033b7be5252ab2fab4cf79fa755.res::
-ventricle_hover.png::CompressedTexture2D/CompressedTexture2D::896815433216353281::1746613127::1746613128::1::::<><><>0<>0<>e518cb1f08489091bcbf420e44acb8be<>res://.godot/imported/ventricle_hover.png-7097f82129b903e303c7a0e8fa4e8070.ctex::
+::res://::1746848736
+Bio Teaching Project.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::7666866453797370801::1746244702::1746495637::1::::<><><>0<>0<>7ba37ab56ecfb3a123719df17abc4401<>res://.godot/imported/Bio Teaching Project.apple-touch-icon.png-379a90c545899f6408766e440c3a1430.ctex::
+Bio Teaching Project.icon.png::CompressedTexture2D/CompressedTexture2D::2180763828898710532::1746244702::1746495637::1::::<><><>0<>0<>e7d919a5ce0b8703aa99808dab92bd84<>res://.godot/imported/Bio Teaching Project.icon.png-fe03f42ebf50d83798b29a794fba92b2.ctex::
+Bio Teaching Project.png::CompressedTexture2D/CompressedTexture2D::8441602513231427936::1746244702::1746495637::1::::<><><>0<>0<>9fad59b16325940b0cdf0f0f5cbb67e0<>res://.godot/imported/Bio Teaching Project.png-a0dd8387f43c46f700c85cef3b31b5c9.ctex::
+export_presets.cfg::TextFile/TextFile::-1::1746658443::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::5432407446256485572::1744814445::1744815553::1::::<><><>0<>0<>6dfaeacbb58872081137af2d3e5bff38<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+organ_bus.gd::GDScript/GDScript::4483504119288394560::1746658449::0::1::::<>Node<><>0<>0<><>::
+::res://exports/::1746245723
+::res://exports/web/::1746660272
+Bio Teaching Project.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::7119752565917035368::1746594884::1746660272::1::::<><><>0<>0<>9b63464c73d8aaa23f053299f05f9201<>res://.godot/imported/Bio Teaching Project.apple-touch-icon.png-af9eee4ddbbb7a7f1bcdd9be13125cc5.ctex::
+Bio Teaching Project.icon.png::CompressedTexture2D/CompressedTexture2D::3727712593821217768::1746594884::1746660272::1::::<><><>0<>0<>f31077539ac9041a44833480f1e6bc74<>res://.godot/imported/Bio Teaching Project.icon.png-f2ffff155b466b34a7f4f40a282236a1.ctex::
+Bio Teaching Project.png::CompressedTexture2D/CompressedTexture2D::752015603817069696::1746594884::1746660272::1::::<><><>0<>0<>38516b463e1169a057cf4a02614ada03<>res://.godot/imported/Bio Teaching Project.png-f2a966a8952bdf9be143c3d14d3f6f0f.ctex::
+::res://game/::1744902602
+::res://game/Misc/::1746762645
+darken_shader.gdshader::Shader::3525316353978556801::1746762645::0::1::::<><><>0<>0<><>::
+darken_shader.tscn::PackedScene/PackedScene::3407864731377576759::1746594379::0::1::::<><><>0<>0<><>::uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://cjnq7sifwrkto::::res://icon.svg
+global.gd::GDScript/GDScript::1326740354383515739::1746243909::0::1::::<>Node<><>0<>0<><>::
+Kiwi Fruit.otf::FontFile/FontFile::65330349062928250::1746236172::1746660272::1::::<><><>0<>0<>3ea2ac006724e4ed8174616e72388ccc<>res://.godot/imported/Kiwi Fruit.otf-07b9466b875f3cf7be2759c07815e970.fontdata::
+theme.tres::Theme::7085385515821117549::1746753936::0::1::::<><><>0<>0<><>::
+vocab_list.gd::GDScript/GDScript::1655487725923280986::1746583261::0::1::::<>Node<><>0<>0<><>::
+::res://game/scenes/::1746753936
+gui.gd::GDScript/GDScript::2354105029512730118::1746243909::0::1::::<>Control<><>0<>0<><>::
+main.tscn::PackedScene::1398705895160539112::1746753936::0::1::::<><><>0<>0<><>::uid://bt4fjr3ldsqj0::::res://game/scenes/screens/start_screen.tscn
+panel.gd::GDScript/GDScript::5922435674094525878::1746495621::0::1::::<>Panel<><>0<>0<><>::
+start_button.gd::GDScript/GDScript::4569047321311939878::1746243909::0::1::::<>TextureButton<><>0<>0<><>::
+tab_container.gd::GDScript/GDScript::8057285265672379920::1746495621::0::1::::<>PanelContainer<><>0<>0<><>::
+tab_container.tscn::PackedScene/PackedScene::2214451585301045617::1746588348::0::1::::<><><>0<>0<><>::uid://dm2aktxduvk4g::::res://game/scenes/tab_container.gd
+::res://game/scenes/screens/::1746753937
+after_start.tscn::PackedScene/PackedScene::4988821731076608009::1744902602::0::1::::<><><>0<>0<><>::
+bottom_pannel_expand.gd::GDScript/GDScript::3170642839400464334::1746658449::0::1::::<>TextureButton<><>0<>0<><>::
+button.gd::GDScript/GDScript::6277670212089436546::1746658449::0::1::::<>TextureButton<><>0<>0<><>::
+organ_screen.gd::GDScript/GDScript::6171087465160664812::1746658449::0::1::::<>Control<><>0<>0<><>::
+organ_screen.tscn::PackedScene::5859029757059379194::1746753937::0::1::::<><><>0<>0<><>::uid://ct6k550evtolw::::res://game/scenes/screens/organ_screen.gd<>uid://c4jqfa6o58u8g::::res://game/scenes/screens/scroll_container.gd<>uid://tjse0npxi2f::::res://game/scenes/screens/vocab_container.gd<>uid://cvo7kt07q2cc5::::res://game/scenes/screens/button.gd<>uid://blf5a3egwrk1k::::res://game/scenes/screens/bottom_pannel_expand.gd<>uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://6sxxul5ynxuf::::res://game/scenes/tab_container.tscn
+scroll_container.gd::GDScript/GDScript::6827877682095911328::1746330869::0::1::::<>ScrollContainer<><>0<>0<><>::
+start_screen.gd::GDScript/GDScript::7822474541548509385::1746582878::0::1::::<>Control<><>0<>0<><>::
+start_screen.tscn::PackedScene::3780196261448427307::1746753937::0::1::::<><><>0<>0<><>::uid://b6djsomk0d4f7::::res://game/scenes/start_button.gd<>uid://djpjao26167l2::::res://game/scenes/screens/start_screen.gd
+vocab_container.gd::GDScript/GDScript::39802023877452739::1746583012::0::1::::<>VBoxContainer<><>0<>0<><>::
+::res://game/Types/::1746753937
+atrium.gd::GDScript/GDScript::8112356837909727006::1746658449::0::1::::<>TextureButton<><>0<>0<><>::
+full_system.tscn::PackedScene::7828755410181865627::1746753937::0::1::::<><><>0<>0<><>::uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://by8inul8uc4p5::::res://sprites/full_system.png<>uid://bapccbeoqsysf::::res://sprites/atrium_click.png<>uid://cgkq4rfvoyif3::::res://game/Types/organ_sprite.gd<>uid://o2ct01lg0q7g::::res://sprites/atrium_hover.png<>uid://dntxljwu3h5mw::::res://game/Types/atrium.gd<>uid://m1ooisu4g3l2::::res://sprites/ventricle_hover.png<>uid://cf17pei7iejat::::res://sprites/ventricle_click.png<>uid://fxjw0vu7urr0::::res://game/Types/ventricle.gd<>uid://3hbueiu386ys::::res://sprites/lung_hover.png<>uid://5dss08qcxcon::::res://sprites/lung_click.png
+organ_sprite.gd::GDScript/GDScript::5215642368257279462::1746658449::0::1::::<>TextureRect<><>0<>0<><>::
+texture_button.gd::GDScript/GDScript::1420850938168456264::1746495621::0::1::::<>TextureButton<><>0<>0<><>::
+ventricle.gd::GDScript/GDScript::399011993411266559::1746658449::0::1::::<>TextureButton<><>0<>0<><>::
+vocab_word.gd::GDScript/GDScript::442771806165582357::1746658449::0::1::::<>Button<><>0<>0<><>::
+vocab_word.tscn::PackedScene::903443790027846018::1746753937::0::1::::<><><>0<>0<><>::uid://gkqnfk8uwg4t::::res://game/Types/vocab_word.gd
+::res://sprites/::1746660273
+atrium_click.png::BitMap/BitMap::2417511414938121369::1746495621::1746495637::1::::<><><>0<>0<>0d0ce748ea9b97127c0dd9c83d0dc083<>res://.godot/imported/atrium_click.png-871d43b91e1e188e217cb22f08085d90.res::
+atrium_hover.png::CompressedTexture2D/CompressedTexture2D::1038538728119271566::1746658449::1746660273::1::::<><><>0<>0<>9b30d3b3685a4de287ed0301df5d76bf<>res://.godot/imported/atrium_hover.png-48aa429fa5373aca83e670aa42e664f8.ctex::
+bottom_arrow.png::CompressedTexture2D/CompressedTexture2D::4337233066073426445::1746495621::1746495637::1::::<><><>0<>0<>b20ff511eea33d15ee3d025ed4276757<>res://.godot/imported/bottom_arrow.png-f2f3a1c9cac3b099a48f023ef3ddc38b.ctex::
+full_system.png::CompressedTexture2D/CompressedTexture2D::4139587417138806080::1746495621::1746495638::1::::<><><>0<>0<>3f804730c2e75b01bc2d8fe1d0f2726f<>res://.godot/imported/full_system.png-ef313c3c248465e002b1031cad725baa.ctex::
+heart_norm.png::CompressedTexture2D/CompressedTexture2D::3620252278517526356::1744902602::1746069840::1::::<><><>0<>0<>4e780a66881bc304e698bfe41e6d260a<>res://.godot/imported/heart_norm.png-627588c1113433d3176cf6304c035a40.ctex::
+lung_click.png::BitMap/BitMap::2112984857356080905::1746658449::1746660272::1::::<><><>0<>0<>4f8c4efa0cf6465f3d5054df1dc21203<>res://.godot/imported/lung_click.png-7e67af45c5a934d3ade06b68ec37e7d6.res::
+lung_hover.png::CompressedTexture2D/CompressedTexture2D::1979834922413485062::1746658449::1746660273::1::::<><><>0<>0<>fa3bfd6713963ca1d331fa95a5deb92f<>res://.godot/imported/lung_hover.png-5d1bb6fad8dc5abeb02e53414e7e9bff.ctex::
+side_arrow.png::CompressedTexture2D/CompressedTexture2D::6352963095607610964::1746330869::1746495637::1::::<><><>0<>0<>5aa2e86c3f844dc1cc3a4f319ad596ea<>res://.godot/imported/side_arrow.png-94a7b91a31e2c73a06cb1ff9f7be2098.ctex::
+ventricle_click.png::BitMap/BitMap::5179429361775646295::1746658449::1746660272::1::::<><><>0<>0<>aadd6368def0d0b834d20b14e150532f<>res://.godot/imported/ventricle_click.png-8dd47033b7be5252ab2fab4cf79fa755.res::
+ventricle_hover.png::CompressedTexture2D/CompressedTexture2D::896815433216353281::1746658449::1746660273::1::::<><><>0<>0<>e518cb1f08489091bcbf420e44acb8be<>res://.godot/imported/ventricle_hover.png-7097f82129b903e303c7a0e8fa4e8070.ctex::
