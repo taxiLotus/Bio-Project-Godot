@@ -9,6 +9,9 @@ func _ready() -> void:
 	all_organ_parts = get_all_children(organ_path)
 	connect_signals()
 	alignment = HORIZONTAL_ALIGNMENT_CENTER
+	self.connect("mouse_entered", _on_mouse_entered)
+	self.connect("mouse_exited", _on_mouse_exited)
+	self.connect("pressed", _on_pressed)
 
 func connect_signals():
 	var check_organs : int = 0
@@ -44,6 +47,8 @@ func _on_pressed() -> void:
 	else:
 		description.queue_free()
 		defOpen = false
+		
+	OrganBus.pressed.emit()
 	
 func _on_organ_pressed(organ_name):
 	if defOpen == true:
@@ -58,4 +63,15 @@ func _on_organ_pressed(organ_name):
 		description.text = "    " + VocabList.vocab[vocab_word]
 		get_parent().move_child(description, node_index+1)
 		defOpen = true
-	
+
+func _on_mouse_entered():
+	OrganBus.mouse_entered.emit()
+	for organ in all_organ_parts:
+		if organ.name == vocab_word:
+			organ.set_texture_normal(organ.get_texture_hover())
+
+func _on_mouse_exited():
+	OrganBus.mouse_exited.emit()
+	for organ in all_organ_parts:
+		if organ.name == vocab_word:
+			organ.set_texture_normal(null)

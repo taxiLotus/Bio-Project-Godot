@@ -1,17 +1,23 @@
-[gd_scene load_steps=14 format=3 uid="uid://djskpth1jijmp"]
+[gd_scene load_steps=20 format=3 uid="uid://djskpth1jijmp"]
 
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/Misc/darken_shader.gdshader" id="1_2rxd4"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="1_2rxd4"]
 [ext_resource type="Texture2D" uid="uid://by8inul8uc4p5" path="res://sprites/full_system.png" id="1_3pbw1"]
 [ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://Game/Types/container.gd" id="1_ssn5b"]
 [ext_resource type="BitMap" uid="uid://bapccbeoqsysf" path="res://sprites/atrium_click.png" id="2_ptmac"]
-[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://game/Types/organ_sprite.gd" id="2_v8rwn"]
+[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://Game/Types/organ_sprite.gd" id="2_v8rwn"]
 [ext_resource type="Texture2D" uid="uid://o2ct01lg0q7g" path="res://sprites/atrium_hover.png" id="4_ls7lw"]
-[ext_resource type="Script" uid="uid://dntxljwu3h5mw" path="res://game/Types/atrium.gd" id="6_70uek"]
+[ext_resource type="Script" uid="uid://dntxljwu3h5mw" path="res://Game/Types/atrium.gd" id="6_70uek"]
 [ext_resource type="Texture2D" uid="uid://m1ooisu4g3l2" path="res://sprites/ventricle_hover.png" id="6_uwrxs"]
 [ext_resource type="BitMap" uid="uid://cf17pei7iejat" path="res://sprites/ventricle_click.png" id="7_ls7lw"]
-[ext_resource type="Script" uid="uid://fxjw0vu7urr0" path="res://game/Types/ventricle.gd" id="9_7tvh6"]
+[ext_resource type="Script" uid="uid://fxjw0vu7urr0" path="res://Game/Types/ventricle.gd" id="9_7tvh6"]
 [ext_resource type="Texture2D" uid="uid://3hbueiu386ys" path="res://sprites/lung_hover.png" id="10_bsw68"]
 [ext_resource type="BitMap" uid="uid://5dss08qcxcon" path="res://sprites/lung_click.png" id="11_ssn5b"]
+[ext_resource type="Texture2D" uid="uid://c70gi7ktjriqk" path="res://Game/Types/capillary_beds.png" id="13_gniwe"]
+[ext_resource type="BitMap" uid="uid://71iiq28q1poy" path="res://sprites/capillary_beds_click.png" id="14_e4qfd"]
+[ext_resource type="Texture2D" uid="uid://sv00df8iko2k" path="res://sprites/arteries.png" id="15_fg73w"]
+[ext_resource type="BitMap" uid="uid://cu86fyyvtv7s1" path="res://sprites/arteries_click.png" id="16_ktf8w"]
+[ext_resource type="Texture2D" uid="uid://dmcrw610x4mut" path="res://sprites/veins.png" id="17_m1yq2"]
+[ext_resource type="BitMap" uid="uid://doilrqx701xmu" path="res://sprites/veins_click.png" id="18_g3wav"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_uwrxs"]
 shader = ExtResource("1_2rxd4")
@@ -65,6 +71,36 @@ ignore_texture_size = true
 stretch_mode = 0
 script = ExtResource("9_7tvh6")
 
+[node name="Capillary" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("13_gniwe")
+texture_hover = ExtResource("13_gniwe")
+texture_focused = ExtResource("13_gniwe")
+texture_click_mask = ExtResource("14_e4qfd")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_7tvh6")
+
+[node name="Artery" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("15_fg73w")
+texture_hover = ExtResource("15_fg73w")
+texture_focused = ExtResource("15_fg73w")
+texture_click_mask = ExtResource("16_ktf8w")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_7tvh6")
+
+[node name="Vein" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("17_m1yq2")
+texture_hover = ExtResource("17_m1yq2")
+texture_focused = ExtResource("17_m1yq2")
+texture_click_mask = ExtResource("18_g3wav")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("9_7tvh6")
+
 [connection signal="focus_entered" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_focus_entered"]
 [connection signal="focus_entered" from="Container/Atrium" to="Container/Atrium" method="_on_focus_entered"]
 [connection signal="focus_exited" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_focus_exited"]
@@ -85,3 +121,18 @@ script = ExtResource("9_7tvh6")
 [connection signal="mouse_entered" from="Container/Lung" to="Container/Lung" method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Container/Lung" to="Container/Lung" method="_on_mouse_exited"]
 [connection signal="pressed" from="Container/Lung" to="Container/Lung" method="_on_pressed"]
+[connection signal="focus_entered" from="Container/Capillary" to="Container/Capillary" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Container/Capillary" to="Container/Capillary" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="Container/Capillary" to="Container/Capillary" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Capillary" to="Container/Capillary" method="_on_mouse_exited"]
+[connection signal="pressed" from="Container/Capillary" to="Container/Capillary" method="_on_pressed"]
+[connection signal="focus_entered" from="Container/Artery" to="Container/Artery" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Container/Artery" to="Container/Artery" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="Container/Artery" to="Container/Artery" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Artery" to="Container/Artery" method="_on_mouse_exited"]
+[connection signal="pressed" from="Container/Artery" to="Container/Artery" method="_on_pressed"]
+[connection signal="focus_entered" from="Container/Vein" to="Container/Vein" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Container/Vein" to="Container/Vein" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="Container/Vein" to="Container/Vein" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Vein" to="Container/Vein" method="_on_mouse_exited"]
+[connection signal="pressed" from="Container/Vein" to="Container/Vein" method="_on_pressed"]

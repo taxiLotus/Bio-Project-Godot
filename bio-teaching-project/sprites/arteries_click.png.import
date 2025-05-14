@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://cu86fyyvtv7s1"
+path="res://.godot/imported/arteries_click.png-3b4e0e4c7ba9fd49a33040efb8f1b545.res"
+
+[deps]
+
+source_file="res://sprites/arteries_click.png"
+dest_files=["res://.godot/imported/arteries_click.png-3b4e0e4c7ba9fd49a33040efb8f1b545.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

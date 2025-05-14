@@ -1,9 +1,0 @@
-res://game/scenes/main.tscn
-res://Game/Misc/theme.tres
-res://Game/Misc/darken_shader.gdshader
-res://game/scenes/screens/start_screen.tscn
-res://Game/Scenes/screens/organ_screen.tscn
-res://game/Types/vocab_word.tscn
-res://Game/Types/full_system.tscn
-res://game/scenes/screens/scroll_container.gd
-res://Game/Types/container.gd

@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://71iiq28q1poy"
+path="res://.godot/imported/capillary_beds_click.png-1dbd1273196ec3eb762415761b23f51f.res"
+
+[deps]
+
+source_file="res://sprites/capillary_beds_click.png"
+dest_files=["res://.godot/imported/capillary_beds_click.png-1dbd1273196ec3eb762415761b23f51f.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

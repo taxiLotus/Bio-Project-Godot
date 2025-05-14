@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://doilrqx701xmu"
+path="res://.godot/imported/veins_click.png-ab043d7f2066feed93926b683094ce11.res"
+
+[deps]
+
+source_file="res://sprites/veins_click.png"
+dest_files=["res://.godot/imported/veins_click.png-ab043d7f2066feed93926b683094ce11.res"]
+
+[params]
+
+create_from=0
+threshold=0.5
