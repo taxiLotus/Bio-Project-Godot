@@ -2,7 +2,7 @@ extends TextureButton
 
 var out = false
 var start_loc = position
-var final_loc = Vector2(start_loc.x, start_loc.y-88)
+var final_loc = Vector2(start_loc.x, start_loc.y-90)
 var velocity = Vector2.ZERO
 var travel_speed = 5000
 

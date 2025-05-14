@@ -1,11 +1,16 @@
 extends TextureRect
 
 var shade_var = 0
+var darkest_shade = 0.25
+
 var shade_inc = 0
+var shade_speed = 0.05
+
 var darkening = false
 var focused = false
 var hovering = false
 var all_organ_parts
+
 
 signal organ_pressed
 
@@ -32,16 +37,16 @@ func get_all_children(in_node_path: NodePath, arr := []):
 func _on_organ_pressed() -> void:
 	emit_signal("organ_pressed")
 	hovering = true
-	shade_var = 0.15
+	shade_var = darkest_shade
 	if(material.get_shader_parameter('difference') <= shade_var):
-		shade_inc = 0.015
+		shade_inc = shade_speed
 		darkening = true
 
 func _on_organ_mouse_entered() -> void:
 	hovering = true
-	shade_var = 0.15
+	shade_var = darkest_shade
 	if(material.get_shader_parameter('difference') <= shade_var):
-		shade_inc = 0.015
+		shade_inc = shade_speed
 		darkening = true
 
 func _on_organ_mouse_exited() -> void:
@@ -49,7 +54,7 @@ func _on_organ_mouse_exited() -> void:
 	if focused == false:
 		shade_var = 0
 		if(material.get_shader_parameter('difference') >= shade_var):
-			shade_inc = -0.015
+			shade_inc = -shade_speed
 			darkening = false
 	
 func _on_organ_focus_entered() -> void:
@@ -59,7 +64,7 @@ func _on_organ_focus_exited() -> void:
 	focused = false
 	shade_var = 0
 	if(material.get_shader_parameter('difference') >= shade_var):
-		shade_inc = -0.015
+		shade_inc = -shade_speed
 		darkening = false
 	
 func _process(delta: float) -> void:
@@ -79,5 +84,5 @@ func _input(event: InputEvent) -> void:
 			grab_focus()
 			shade_var = 0
 			if(material.get_shader_parameter('difference') >= shade_var):
-				shade_inc = -0.015
+				shade_inc = -shade_speed
 				darkening = false

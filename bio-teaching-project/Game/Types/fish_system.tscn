@@ -1,107 +1,105 @@
-[gd_scene load_steps=20 format=3 uid="uid://djskpth1jijmp"]
+[gd_scene load_steps=20 format=3 uid="uid://bnau4fdqwsnqn"]
 
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="1_2rxd4"]
-[ext_resource type="Texture2D" uid="uid://by8inul8uc4p5" path="res://sprites/full_system.png" id="1_3pbw1"]
-[ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://Game/Types/container.gd" id="1_ssn5b"]
-[ext_resource type="BitMap" uid="uid://bapccbeoqsysf" path="res://sprites/atrium_click.png" id="2_ptmac"]
-[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://Game/Types/organ_sprite.gd" id="2_v8rwn"]
-[ext_resource type="Texture2D" uid="uid://o2ct01lg0q7g" path="res://sprites/atrium_hover.png" id="4_ls7lw"]
-[ext_resource type="Script" uid="uid://dntxljwu3h5mw" path="res://Game/Types/atrium.gd" id="6_70uek"]
-[ext_resource type="Texture2D" uid="uid://m1ooisu4g3l2" path="res://sprites/ventricle_hover.png" id="6_uwrxs"]
-[ext_resource type="BitMap" uid="uid://cf17pei7iejat" path="res://sprites/ventricle_click.png" id="7_ls7lw"]
-[ext_resource type="Script" uid="uid://fxjw0vu7urr0" path="res://Game/Types/ventricle.gd" id="9_7tvh6"]
-[ext_resource type="Texture2D" uid="uid://3hbueiu386ys" path="res://sprites/lung_hover.png" id="10_bsw68"]
-[ext_resource type="BitMap" uid="uid://5dss08qcxcon" path="res://sprites/lung_click.png" id="11_ssn5b"]
-[ext_resource type="Texture2D" uid="uid://c70gi7ktjriqk" path="res://Game/Types/capillary_beds.png" id="13_gniwe"]
-[ext_resource type="BitMap" uid="uid://71iiq28q1poy" path="res://sprites/capillary_beds_click.png" id="14_e4qfd"]
-[ext_resource type="Texture2D" uid="uid://sv00df8iko2k" path="res://sprites/arteries.png" id="15_fg73w"]
-[ext_resource type="BitMap" uid="uid://cu86fyyvtv7s1" path="res://sprites/arteries_click.png" id="16_ktf8w"]
-[ext_resource type="Texture2D" uid="uid://dmcrw610x4mut" path="res://sprites/veins.png" id="17_m1yq2"]
-[ext_resource type="BitMap" uid="uid://doilrqx701xmu" path="res://sprites/veins_click.png" id="18_g3wav"]
+[ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://Game/Types/container.gd" id="1_mbpkg"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="2_juag1"]
+[ext_resource type="Texture2D" uid="uid://by8inul8uc4p5" path="res://sprites/full_system.png" id="3_h3ytu"]
+[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://Game/Types/organ_sprite.gd" id="4_ghcmj"]
+[ext_resource type="Texture2D" uid="uid://o2ct01lg0q7g" path="res://sprites/atrium_hover.png" id="5_2b5f7"]
+[ext_resource type="BitMap" uid="uid://bapccbeoqsysf" path="res://sprites/atrium_click.png" id="6_t6tw6"]
+[ext_resource type="Script" uid="uid://dntxljwu3h5mw" path="res://Game/Types/atrium.gd" id="7_ueu3n"]
+[ext_resource type="Texture2D" uid="uid://m1ooisu4g3l2" path="res://sprites/ventricle_hover.png" id="8_8keyt"]
+[ext_resource type="BitMap" uid="uid://cf17pei7iejat" path="res://sprites/ventricle_click.png" id="9_y0vqs"]
+[ext_resource type="Script" uid="uid://fxjw0vu7urr0" path="res://Game/Types/ventricle.gd" id="10_4bmlw"]
+[ext_resource type="Texture2D" uid="uid://3hbueiu386ys" path="res://sprites/lung_hover.png" id="11_jhftk"]
+[ext_resource type="BitMap" uid="uid://5dss08qcxcon" path="res://sprites/lung_click.png" id="12_62ih5"]
+[ext_resource type="Texture2D" uid="uid://c70gi7ktjriqk" path="res://Game/Types/capillary_beds.png" id="13_37gsv"]
+[ext_resource type="BitMap" uid="uid://71iiq28q1poy" path="res://sprites/capillary_beds_click.png" id="14_2lbk0"]
+[ext_resource type="Texture2D" uid="uid://sv00df8iko2k" path="res://sprites/arteries.png" id="15_y2bo8"]
+[ext_resource type="BitMap" uid="uid://cu86fyyvtv7s1" path="res://sprites/arteries_click.png" id="16_5w1t0"]
+[ext_resource type="Texture2D" uid="uid://dmcrw610x4mut" path="res://sprites/veins.png" id="17_jifwv"]
+[ext_resource type="BitMap" uid="uid://doilrqx701xmu" path="res://sprites/veins_click.png" id="18_10bhh"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_uwrxs"]
-shader = ExtResource("1_2rxd4")
+shader = ExtResource("2_juag1")
 shader_parameter/difference = 0.0
 
-[node name="FullSystem" type="Control"]
+[node name="FishSystem" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 
 [node name="Container" type="AspectRatioContainer" parent="."]
 layout_mode = 0
-offset_left = 113.0
-offset_top = 52.0
-offset_right = 991.0
-offset_bottom = 572.0
-script = ExtResource("1_ssn5b")
+offset_right = 878.0
+offset_bottom = 520.0
+script = ExtResource("1_mbpkg")
 
 [node name="FullSystemSprite" type="TextureRect" parent="Container"]
 material = SubResource("ShaderMaterial_uwrxs")
 layout_mode = 2
 focus_mode = 1
-texture = ExtResource("1_3pbw1")
+texture = ExtResource("3_h3ytu")
 expand_mode = 1
-script = ExtResource("2_v8rwn")
+script = ExtResource("4_ghcmj")
 
 [node name="Atrium" type="TextureButton" parent="Container"]
 layout_mode = 2
-texture_pressed = ExtResource("4_ls7lw")
-texture_hover = ExtResource("4_ls7lw")
-texture_focused = ExtResource("4_ls7lw")
-texture_click_mask = ExtResource("2_ptmac")
+texture_pressed = ExtResource("5_2b5f7")
+texture_hover = ExtResource("5_2b5f7")
+texture_focused = ExtResource("5_2b5f7")
+texture_click_mask = ExtResource("6_t6tw6")
 ignore_texture_size = true
 stretch_mode = 0
-script = ExtResource("6_70uek")
+script = ExtResource("7_ueu3n")
 
 [node name="Ventricle" type="TextureButton" parent="Container"]
 layout_mode = 2
-texture_pressed = ExtResource("6_uwrxs")
-texture_hover = ExtResource("6_uwrxs")
-texture_focused = ExtResource("6_uwrxs")
-texture_click_mask = ExtResource("7_ls7lw")
+texture_pressed = ExtResource("8_8keyt")
+texture_hover = ExtResource("8_8keyt")
+texture_focused = ExtResource("8_8keyt")
+texture_click_mask = ExtResource("9_y0vqs")
 ignore_texture_size = true
 stretch_mode = 0
-script = ExtResource("9_7tvh6")
+script = ExtResource("10_4bmlw")
 
 [node name="Lung" type="TextureButton" parent="Container"]
 layout_mode = 2
-texture_pressed = ExtResource("10_bsw68")
-texture_hover = ExtResource("10_bsw68")
-texture_focused = ExtResource("10_bsw68")
-texture_click_mask = ExtResource("11_ssn5b")
+texture_pressed = ExtResource("11_jhftk")
+texture_hover = ExtResource("11_jhftk")
+texture_focused = ExtResource("11_jhftk")
+texture_click_mask = ExtResource("12_62ih5")
 ignore_texture_size = true
 stretch_mode = 0
-script = ExtResource("9_7tvh6")
+script = ExtResource("10_4bmlw")
 
 [node name="Capillary" type="TextureButton" parent="Container"]
 layout_mode = 2
-texture_pressed = ExtResource("13_gniwe")
-texture_hover = ExtResource("13_gniwe")
-texture_focused = ExtResource("13_gniwe")
-texture_click_mask = ExtResource("14_e4qfd")
+texture_pressed = ExtResource("13_37gsv")
+texture_hover = ExtResource("13_37gsv")
+texture_focused = ExtResource("13_37gsv")
+texture_click_mask = ExtResource("14_2lbk0")
 ignore_texture_size = true
 stretch_mode = 0
-script = ExtResource("9_7tvh6")
+script = ExtResource("10_4bmlw")
 
 [node name="Artery" type="TextureButton" parent="Container"]
 layout_mode = 2
-texture_pressed = ExtResource("15_fg73w")
-texture_hover = ExtResource("15_fg73w")
-texture_focused = ExtResource("15_fg73w")
-texture_click_mask = ExtResource("16_ktf8w")
+texture_pressed = ExtResource("15_y2bo8")
+texture_hover = ExtResource("15_y2bo8")
+texture_focused = ExtResource("15_y2bo8")
+texture_click_mask = ExtResource("16_5w1t0")
 ignore_texture_size = true
 stretch_mode = 0
-script = ExtResource("9_7tvh6")
+script = ExtResource("10_4bmlw")
 
 [node name="Vein" type="TextureButton" parent="Container"]
 layout_mode = 2
-texture_pressed = ExtResource("17_m1yq2")
-texture_hover = ExtResource("17_m1yq2")
-texture_focused = ExtResource("17_m1yq2")
-texture_click_mask = ExtResource("18_g3wav")
+texture_pressed = ExtResource("17_jifwv")
+texture_hover = ExtResource("17_jifwv")
+texture_focused = ExtResource("17_jifwv")
+texture_click_mask = ExtResource("18_10bhh")
 ignore_texture_size = true
 stretch_mode = 0
-script = ExtResource("9_7tvh6")
+script = ExtResource("10_4bmlw")
 
 [connection signal="focus_entered" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_focus_entered"]
 [connection signal="focus_entered" from="Container/Atrium" to="Container/Atrium" method="_on_focus_entered"]

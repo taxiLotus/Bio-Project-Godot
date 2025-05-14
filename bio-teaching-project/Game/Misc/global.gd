@@ -1,6 +1,8 @@
 extends Node
 
 var current_scene = null
+var current_organ = null
+var current_organ_title
 
 func _ready():
 	var root = get_tree().root.get_child(-1)
