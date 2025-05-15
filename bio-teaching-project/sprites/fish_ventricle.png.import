@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c70gi7ktjriqk"
-path="res://.godot/imported/capillary_beds.png-47c2d33956aea4ad2d2cac61a04a0cb7.ctex"
+uid="uid://dnj3an23rbh30"
+path="res://.godot/imported/fish_ventricle.png-eeb4cc7b0963f8faa01c6d2a79ef6a1d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/Types/capillary_beds.png"
-dest_files=["res://.godot/imported/capillary_beds.png-47c2d33956aea4ad2d2cac61a04a0cb7.ctex"]
+source_file="res://sprites/fish_ventricle.png"
+dest_files=["res://.godot/imported/fish_ventricle.png-eeb4cc7b0963f8faa01c6d2a79ef6a1d.ctex"]
 
 [params]
 

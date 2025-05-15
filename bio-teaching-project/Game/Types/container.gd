@@ -16,10 +16,10 @@ func _input(event: InputEvent) -> void:
 			if event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
 				zoom_at(1/zoom_step, mouse_position)
 			
-			if event.button_index == MOUSE_BUTTON_MIDDLE:
+			if event.button_index == MOUSE_BUTTON_MIDDLE or event.button_index == MOUSE_BUTTON_RIGHT:
 				dragging = !dragging
 		if event.is_released():
-			if event.button_index == MOUSE_BUTTON_MIDDLE:
+			if event.button_index == MOUSE_BUTTON_MIDDLE or event.button_index == MOUSE_BUTTON_RIGHT:
 				dragging = !dragging
 
 	if event is InputEventMouseMotion:

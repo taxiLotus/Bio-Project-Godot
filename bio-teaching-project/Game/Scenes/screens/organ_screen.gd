@@ -12,7 +12,6 @@ func _enter_tree():
 		VocabList.current_vocab.append("Atrium")
 		VocabList.current_vocab.append("Lung")
 		Global.current_organ_title = "Double Circulation (Mammalian)"
-		
 		organ = preload("res://Game/Types/full_system.tscn")
 		
 	if Global.current_organ == "fish_system":
@@ -21,6 +20,8 @@ func _enter_tree():
 		VocabList.current_vocab.append("Capillary")
 		VocabList.current_vocab.append("Ventricle")
 		VocabList.current_vocab.append("Atrium")
+		Global.current_organ_title = "Double Circulation (Fish)"
+		organ = preload("res://game/Types/fish_system.tscn")
 	
 	VocabList.current_vocab.sort()
 	var instance = organ.instantiate()

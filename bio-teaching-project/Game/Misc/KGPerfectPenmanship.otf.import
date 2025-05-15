@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://6v8mngdvkhm"
-path="res://.godot/imported/Kiwi Fruit.otf-07b9466b875f3cf7be2759c07815e970.fontdata"
+uid="uid://wwrw8djf8fn8"
+path="res://.godot/imported/KGPerfectPenmanship.otf-e0e6199a1043ddfe4a825703bd969b04.fontdata"
 
 [deps]
 
-source_file="res://game/Misc/Kiwi Fruit.otf"
-dest_files=["res://.godot/imported/Kiwi Fruit.otf-07b9466b875f3cf7be2759c07815e970.fontdata"]
+source_file="res://game/Misc/KGPerfectPenmanship.otf"
+dest_files=["res://.godot/imported/KGPerfectPenmanship.otf-e0e6199a1043ddfe4a825703bd969b04.fontdata"]
 
 [params]
 

@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://8tvlbwglk38p"
+path="res://.godot/imported/fish_ventricle_click.png-9f83bdd8cc3e8e6baf43fc3220ed3b72.res"
+
+[deps]
+
+source_file="res://sprites/fish_ventricle_click.png"
+dest_files=["res://.godot/imported/fish_ventricle_click.png-9f83bdd8cc3e8e6baf43fc3220ed3b72.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

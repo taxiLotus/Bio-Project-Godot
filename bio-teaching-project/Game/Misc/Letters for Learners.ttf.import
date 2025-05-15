@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://6v8mngdvkhm"
-path="res://.godot/imported/Kiwi Fruit.otf-07b9466b875f3cf7be2759c07815e970.fontdata"
+uid="uid://bhyljbt0ryfi1"
+path="res://.godot/imported/Letters for Learners.ttf-1c5577360d45f628586879bec751b7e7.fontdata"
 
 [deps]
 
-source_file="res://game/Misc/Kiwi Fruit.otf"
-dest_files=["res://.godot/imported/Kiwi Fruit.otf-07b9466b875f3cf7be2759c07815e970.fontdata"]
+source_file="res://game/Misc/Letters for Learners.ttf"
+dest_files=["res://.godot/imported/Letters for Learners.ttf-1c5577360d45f628586879bec751b7e7.fontdata"]
 
 [params]
 
