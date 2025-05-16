@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://cgj4lpvvwv37u"
+path="res://.godot/imported/fish_vein_click.png-811792665f0566349fe81a3b9c7b340e.res"
+
+[deps]
+
+source_file="res://sprites/fish_vein_click.png"
+dest_files=["res://.godot/imported/fish_vein_click.png-811792665f0566349fe81a3b9c7b340e.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

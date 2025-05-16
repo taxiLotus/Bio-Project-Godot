@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://6v8mngdvkhm"
-path="res://.godot/imported/Kiwi Fruit.otf-07b9466b875f3cf7be2759c07815e970.fontdata"
+path="res://.godot/imported/Kiwi Fruit.otf-2d2a3a268b737e672415034004b1040f.fontdata"
 
 [deps]
 
-source_file="res://game/Misc/Kiwi Fruit.otf"
-dest_files=["res://.godot/imported/Kiwi Fruit.otf-07b9466b875f3cf7be2759c07815e970.fontdata"]
+source_file="res://Game/Misc/Kiwi Fruit.otf"
+dest_files=["res://.godot/imported/Kiwi Fruit.otf-2d2a3a268b737e672415034004b1040f.fontdata"]
 
 [params]
 

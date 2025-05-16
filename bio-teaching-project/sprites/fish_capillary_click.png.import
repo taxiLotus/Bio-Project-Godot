@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://hwe784iufr52"
+path="res://.godot/imported/fish_capillary_click.png-aa41df367b1fb143768107641602c7ce.res"
+
+[deps]
+
+source_file="res://sprites/fish_capillary_click.png"
+dest_files=["res://.godot/imported/fish_capillary_click.png-aa41df367b1fb143768107641602c7ce.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

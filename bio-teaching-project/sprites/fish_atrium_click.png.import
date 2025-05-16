@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://daef20nyurbve"
+path="res://.godot/imported/fish_atrium_click.png-c021ce8e79c93f0ec5612f9a2720ce79.res"
+
+[deps]
+
+source_file="res://sprites/fish_atrium_click.png"
+dest_files=["res://.godot/imported/fish_atrium_click.png-c021ce8e79c93f0ec5612f9a2720ce79.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

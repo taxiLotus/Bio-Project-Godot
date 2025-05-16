@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://c826rknxp1hs8"
+path="res://.godot/imported/fish_artery_click.png-a02579344f9d3b453c7ba8864cf489b2.res"
+
+[deps]
+
+source_file="res://sprites/fish_artery_click.png"
+dest_files=["res://.godot/imported/fish_artery_click.png-a02579344f9d3b453c7ba8864cf489b2.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

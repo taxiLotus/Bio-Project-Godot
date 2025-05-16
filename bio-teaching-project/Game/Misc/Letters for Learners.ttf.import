@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://bhyljbt0ryfi1"
-path="res://.godot/imported/Letters for Learners.ttf-1c5577360d45f628586879bec751b7e7.fontdata"
+path="res://.godot/imported/Letters for Learners.ttf-f26eb015a91ef68579167eed2a8e9309.fontdata"
 
 [deps]
 
-source_file="res://game/Misc/Letters for Learners.ttf"
-dest_files=["res://.godot/imported/Letters for Learners.ttf-1c5577360d45f628586879bec751b7e7.fontdata"]
+source_file="res://Game/Misc/Letters for Learners.ttf"
+dest_files=["res://.godot/imported/Letters for Learners.ttf-f26eb015a91ef68579167eed2a8e9309.fontdata"]
 
 [params]
 
