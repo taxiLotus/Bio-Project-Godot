@@ -1,8 +1,8 @@
-res://Game/Types/fish_system.tscn
+res://game/scenes/main.tscn
 res://Game/Misc/theme.tres
 res://Game/Misc/darken_shader.gdshader
-res://game/scenes/main.tscn
 res://game/scenes/screens/start_screen.tscn
 res://Game/Scenes/screens/organ_screen.tscn
 res://Game/Types/full_system.tscn
 res://Game/Scenes/screens/start_screen.tscn
+res://Game/Types/fish_system.tscn
