@@ -1,9 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://bt4fjr3ldsqj0"]
+[gd_scene load_steps=6 format=3 uid="uid://bt4fjr3ldsqj0"]
 
-[ext_resource type="Script" uid="uid://b6djsomk0d4f7" path="res://game/scenes/start_button.gd" id="1_2eerm"]
 [ext_resource type="Script" uid="uid://djpjao26167l2" path="res://game/scenes/screens/start_screen.gd" id="1_sopfb"]
-
-[sub_resource type="ImageTexture" id="ImageTexture_sopfb"]
+[ext_resource type="Texture2D" uid="uid://bnm2h7cmcpv84" path="res://sprites/title_screen.png" id="2_sopfb"]
+[ext_resource type="Texture2D" uid="uid://ds7gchepq7fhn" path="res://sprites/play_heart.png" id="3_y30uu"]
+[ext_resource type="Texture2D" uid="uid://bksc2gg013slu" path="res://sprites/play_heart_hover.png" id="4_vc0hc"]
+[ext_resource type="Script" uid="uid://bw0lutq56dl38" path="res://game/scenes/screens/texture_button.gd" id="5_bdyd4"]
 
 [node name="StartScreen" type="Control"]
 layout_mode = 3
@@ -12,27 +13,26 @@ offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_sopfb")
 
-[node name="StartButton" type="TextureButton" parent="."]
-layout_mode = 2
-offset_left = 467.0
-offset_top = 212.0
-offset_right = 674.0
-offset_bottom = 464.0
-size_flags_vertical = 3
-texture_normal = SubResource("ImageTexture_sopfb")
-ignore_texture_size = true
-stretch_mode = 0
-script = ExtResource("1_2eerm")
-
-[node name="Label" type="Label" parent="."]
+[node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_left = 304.0
-offset_top = 436.0
-offset_right = 742.0
-offset_bottom = 542.0
-text = "----------------------------------->
-PRESS THE HEART !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+offset_right = 1154.0
+offset_bottom = 649.0
+texture = ExtResource("2_sopfb")
+expand_mode = 1
 
-[connection signal="mouse_entered" from="StartButton" to="StartButton" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="StartButton" to="StartButton" method="_on_mouse_exited"]
-[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[node name="TextureButton" type="TextureButton" parent="TextureRect"]
+layout_mode = 0
+offset_left = 776.0
+offset_top = 174.0
+offset_right = 971.0
+offset_bottom = 433.0
+pivot_offset = Vector2(100, 125)
+texture_normal = ExtResource("3_y30uu")
+texture_hover = ExtResource("4_vc0hc")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("5_bdyd4")
+
+[connection signal="mouse_entered" from="TextureRect/TextureButton" to="TextureRect/TextureButton" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="TextureRect/TextureButton" to="TextureRect/TextureButton" method="_on_mouse_exited"]
+[connection signal="pressed" from="TextureRect/TextureButton" to="." method="_on_texture_button_pressed"]

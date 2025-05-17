@@ -1,8 +1,8 @@
 Button
-RichTextLabel
 TextureButton
-Sprite2D
 TextureRect
+RichTextLabel
+Sprite2D
 AspectRatioContainer
 Container
 Control

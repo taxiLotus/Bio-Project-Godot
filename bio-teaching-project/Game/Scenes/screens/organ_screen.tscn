@@ -73,12 +73,16 @@ offset_top = 659.0
 offset_right = 704.0
 offset_bottom = 763.0
 
+[node name="Button" type="Button" parent="TabContainer"]
+layout_mode = 2
+
 [node name="CurrentlyAt" type="RichTextLabel" parent="."]
 layout_mode = 0
 offset_left = 33.0
 offset_top = 29.0
 offset_right = 497.0
 offset_bottom = 76.0
+mouse_filter = 2
 theme = SubResource("Theme_4assd")
 script = ExtResource("8_4assd")
 
