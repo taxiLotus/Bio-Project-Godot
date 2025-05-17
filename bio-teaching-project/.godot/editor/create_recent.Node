@@ -1,5 +1,7 @@
+HBoxContainer
 Button
 TextureButton
+ScrollContainer
 TextureRect
 RichTextLabel
 Sprite2D
@@ -11,4 +13,3 @@ Panel
 TabContainer
 GridContainer
 CenterContainer
-ColorRect

@@ -1,7 +1,7 @@
 [gd_resource type="Theme" load_steps=14 format=3 uid="uid://c77hi8qng7ag8"]
 
-[ext_resource type="FontFile" uid="uid://wwrw8djf8fn8" path="res://game/Misc/KGPerfectPenmanship.otf" id="1_pdate"]
-[ext_resource type="FontFile" uid="uid://bhyljbt0ryfi1" path="res://game/Misc/Letters for Learners.ttf" id="2_5a2kq"]
+[ext_resource type="FontFile" uid="uid://wwrw8djf8fn8" path="res://Game/Misc/KGPerfectPenmanship.otf" id="1_pdate"]
+[ext_resource type="FontFile" uid="uid://bhyljbt0ryfi1" path="res://Game/Misc/Letters for Learners.ttf" id="2_5a2kq"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5a2kq"]
 content_margin_left = 4.0

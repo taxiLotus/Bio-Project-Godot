@@ -1,86 +1,89 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1747452572
-Bio Teaching Project.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::7666866453797370801::1746244702::1746495637::1::::<><><>0<>0<>7ba37ab56ecfb3a123719df17abc4401<>res://.godot/imported/Bio Teaching Project.apple-touch-icon.png-379a90c545899f6408766e440c3a1430.ctex::
-Bio Teaching Project.icon.png::CompressedTexture2D/CompressedTexture2D::2180763828898710532::1746244702::1746495637::1::::<><><>0<>0<>e7d919a5ce0b8703aa99808dab92bd84<>res://.godot/imported/Bio Teaching Project.icon.png-fe03f42ebf50d83798b29a794fba92b2.ctex::
-Bio Teaching Project.png::CompressedTexture2D/CompressedTexture2D::8441602513231427936::1746244702::1746495637::1::::<><><>0<>0<>9fad59b16325940b0cdf0f0f5cbb67e0<>res://.godot/imported/Bio Teaching Project.png-a0dd8387f43c46f700c85cef3b31b5c9.ctex::
-export_presets.cfg::TextFile/TextFile::-1::1746658443::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D/CompressedTexture2D::5432407446256485572::1744814445::1744815553::1::::<><><>0<>0<>6dfaeacbb58872081137af2d3e5bff38<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-organ_bus.gd::GDScript/GDScript::4483504119288394560::1746658449::0::1::::<>Node<><>0<>0<><>::
-::res://exports/::1746245723
-::res://exports/web/::1746660272
-Bio Teaching Project.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::7119752565917035368::1746594884::1746660272::1::::<><><>0<>0<>9b63464c73d8aaa23f053299f05f9201<>res://.godot/imported/Bio Teaching Project.apple-touch-icon.png-af9eee4ddbbb7a7f1bcdd9be13125cc5.ctex::
-Bio Teaching Project.icon.png::CompressedTexture2D/CompressedTexture2D::3727712593821217768::1746594884::1746660272::1::::<><><>0<>0<>f31077539ac9041a44833480f1e6bc74<>res://.godot/imported/Bio Teaching Project.icon.png-f2ffff155b466b34a7f4f40a282236a1.ctex::
-Bio Teaching Project.png::CompressedTexture2D/CompressedTexture2D::752015603817069696::1746594884::1746660272::1::::<><><>0<>0<>38516b463e1169a057cf4a02614ada03<>res://.godot/imported/Bio Teaching Project.png-f2a966a8952bdf9be143c3d14d3f6f0f.ctex::
-::res://game/::1744902602
-::res://game/Misc/::1747453645
-darken_shader.gdshader::Shader::3525316353978556801::1747453645::0::1::::<><><>0<>0<><>::
-darken_shader.tscn::PackedScene/PackedScene::3407864731377576759::1746594379::0::1::::<><><>0<>0<><>::uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://cjnq7sifwrkto::::res://icon.svg
-global.gd::GDScript/GDScript::1326740354383515739::1747275098::0::1::::<>Node<><>0<>0<><>::
-KGPerfectPenmanship.otf::FontFile/FontFile::1590644085290836903::1747277884::1747361807::1::::<><><>0<>0<>62cbe231a2260ffd827628ee05bff6d6<>res://.godot/imported/KGPerfectPenmanship.otf-e0e6199a1043ddfe4a825703bd969b04.fontdata::
-Kiwi Fruit.otf::FontFile/FontFile::65330349062928250::1746236172::1747361807::1::::<><><>0<>0<>3ea2ac006724e4ed8174616e72388ccc<>res://.godot/imported/Kiwi Fruit.otf-07b9466b875f3cf7be2759c07815e970.fontdata::
-Letters for Learners.ttf::FontFile/FontFile::2927971697356524270::1747278144::1747361807::1::::<><><>0<>0<>137af392d55bbb2613eecfcc051dae3e<>res://.godot/imported/Letters for Learners.ttf-1c5577360d45f628586879bec751b7e7.fontdata::
-theme.tres::Theme::7085385515821117549::1747452654::0::1::::<><><>0<>0<><>::uid://wwrw8djf8fn8::::res://game/Misc/KGPerfectPenmanship.otf<>uid://bhyljbt0ryfi1::::res://game/Misc/Letters for Learners.ttf
-vocab_list.gd::GDScript/GDScript::1655487725923280986::1746583261::0::1::::<>Node<><>0<>0<><>::
-::res://game/scenes/::1747453645
-gui.gd::GDScript/GDScript::2354105029512730118::1746243909::0::1::::<>Control<><>0<>0<><>::
-main.tscn::PackedScene::1398705895160539112::1747453645::0::1::::<><><>0<>0<><>::uid://bt4fjr3ldsqj0::::res://game/scenes/screens/start_screen.tscn
-panel.gd::GDScript/GDScript::5922435674094525878::1746495621::0::1::::<>Panel<><>0<>0<><>::
-start_button.gd::GDScript/GDScript::4569047321311939878::1746243909::0::1::::<>TextureButton<><>0<>0<><>::
-tab_container.gd::GDScript/GDScript::8057285265672379920::1746495621::0::1::::<>PanelContainer<><>0<>0<><>::
-tab_container.tscn::PackedScene/PackedScene::2214451585301045617::1746588348::0::1::::<><><>0<>0<><>::uid://dm2aktxduvk4g::::res://game/scenes/tab_container.gd
-::res://game/scenes/screens/::1747453645
-after_start.tscn::PackedScene/PackedScene::4988821731076608009::1744902602::0::1::::<><><>0<>0<><>::
-bottom_pannel_expand.gd::GDScript/GDScript::3170642839400464334::1747275098::0::1::::<>TextureButton<><>0<>0<><>::
-button.gd::GDScript/GDScript::6277670212089436546::1746658449::0::1::::<>TextureButton<><>0<>0<><>::
-currently_at.gd::GDScript/GDScript::3388233027872822649::1747275098::0::1::::<>RichTextLabel<><>0<>0<><>::
-fish_button.gd::GDScript/GDScript::4621467510162934551::1747278828::0::1::::<>Button<><>0<>0<><>::
-organ_screen.gd::GDScript/GDScript::6171087465160664812::1747278750::0::1::::<>Control<><>0<>0<><>::
-organ_screen.tscn::PackedScene::5859029757059379194::1747453645::0::1::::<><><>0<>0<><>::uid://ct6k550evtolw::::res://game/scenes/screens/organ_screen.gd<>uid://c4jqfa6o58u8g::::res://game/scenes/screens/scroll_container.gd<>uid://tjse0npxi2f::::res://game/scenes/screens/vocab_container.gd<>uid://cvo7kt07q2cc5::::res://game/scenes/screens/button.gd<>uid://blf5a3egwrk1k::::res://game/scenes/screens/bottom_pannel_expand.gd<>uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://6sxxul5ynxuf::::res://game/scenes/tab_container.tscn<>uid://bojjx5uoy7a62::::res://game/scenes/screens/currently_at.gd<>uid://b63w5oi2fjpgx::::res://game/scenes/screens/fish_button.gd
-texture_button.gd::GDScript::3982889314444981069::1747453625::0::1::::<>TextureButton<><>0<>0<><>::
-scroll_container.gd::GDScript/GDScript::6827877682095911328::1746848988::0::1::::<>ScrollContainer<><>0<>0<><>::
-start_screen.gd::GDScript::7822474541548509385::1747453351::0::1::::<>Control<><>0<>0<><>::
-start_screen.tscn::PackedScene::3780196261448427307::1747453645::0::1::::<><><>0<>0<><>::uid://djpjao26167l2::::res://game/scenes/screens/start_screen.gd<>uid://bnm2h7cmcpv84::::res://sprites/title_screen.png<>uid://ds7gchepq7fhn::::res://sprites/play_heart.png<>uid://bksc2gg013slu::::res://sprites/play_heart_hover.png<>uid://bw0lutq56dl38::::res://game/scenes/screens/texture_button.gd
-vocab_container.gd::GDScript/GDScript::39802023877452739::1747275098::0::1::::<>VBoxContainer<><>0<>0<><>::
-::res://game/Types/::1747453645
-atrium.gd::GDScript/GDScript::8112356837909727006::1747275098::0::1::::<>TextureButton<><>0<>0<><>::
-capillary_beds.png::CompressedTexture2D/CompressedTexture2D::7070874093033797570::1747275098::1747361808::1::::<><><>0<>0<>01ccc2145f6fb83b4c7d501cd4581b32<>res://.godot/imported/capillary_beds.png-47c2d33956aea4ad2d2cac61a04a0cb7.ctex::
-container.gd::GDScript/GDScript::8259435793710891121::1747277477::0::1::::<>AspectRatioContainer<><>0<>0<><>::
-fish_system.tscn::PackedScene::3300142046874346513::1747453645::0::1::::<><><>0<>0<><>::uid://dpw6x3enjm306::::res://game/Types/container.gd<>uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://cjpofbvk5t6js::::res://sprites/fish_system.png<>uid://cgkq4rfvoyif3::::res://game/Types/organ_sprite.gd<>uid://dm3ayhybnyfg8::::res://sprites/fish_atrium.png<>uid://daef20nyurbve::::res://sprites/fish_atrium_click.png<>uid://dntxljwu3h5mw::::res://game/Types/atrium.gd<>uid://dnj3an23rbh30::::res://sprites/fish_ventricle.png<>uid://8tvlbwglk38p::::res://sprites/fish_ventricle_click.png<>uid://fxjw0vu7urr0::::res://game/Types/ventricle.gd<>uid://bklym33wapof1::::res://sprites/fish_capillary.png<>uid://hwe784iufr52::::res://sprites/fish_capillary_click.png<>uid://ckfiklvotw5wa::::res://sprites/fish_artery.png<>uid://c826rknxp1hs8::::res://sprites/fish_artery_click.png<>uid://ds1e8ysbiefhj::::res://sprites/fish_vein.png<>uid://cgj4lpvvwv37u::::res://sprites/fish_vein_click.png
-full_system.tscn::PackedScene::7828755410181865627::1747453645::0::1::::<><><>0<>0<><>::uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://by8inul8uc4p5::::res://sprites/full_system.png<>uid://dpw6x3enjm306::::res://game/Types/container.gd<>uid://bapccbeoqsysf::::res://sprites/atrium_click.png<>uid://cgkq4rfvoyif3::::res://game/Types/organ_sprite.gd<>uid://o2ct01lg0q7g::::res://sprites/atrium_hover.png<>uid://dntxljwu3h5mw::::res://game/Types/atrium.gd<>uid://m1ooisu4g3l2::::res://sprites/ventricle_hover.png<>uid://cf17pei7iejat::::res://sprites/ventricle_click.png<>uid://fxjw0vu7urr0::::res://game/Types/ventricle.gd<>uid://3hbueiu386ys::::res://sprites/lung_hover.png<>uid://5dss08qcxcon::::res://sprites/lung_click.png<>uid://c70gi7ktjriqk::::res://game/Types/capillary_beds.png<>uid://71iiq28q1poy::::res://sprites/capillary_beds_click.png<>uid://sv00df8iko2k::::res://sprites/arteries.png<>uid://cu86fyyvtv7s1::::res://sprites/arteries_click.png<>uid://dmcrw610x4mut::::res://sprites/veins.png<>uid://doilrqx701xmu::::res://sprites/veins_click.png
-organ_sprite.gd::GDScript/GDScript::5215642368257279462::1747275098::0::1::::<>TextureRect<><>0<>0<><>::
-texture_button.gd::GDScript/GDScript::1420850938168456264::1746495621::0::1::::<>TextureButton<><>0<>0<><>::
-ventricle.gd::GDScript/GDScript::399011993411266559::1746658449::0::1::::<>TextureButton<><>0<>0<><>::
-vocab_word.gd::GDScript/GDScript::442771806165582357::1747275098::0::1::::<>Button<><>0<>0<><>::
-vocab_word.tscn::PackedScene/PackedScene::903443790027846018::1746849375::0::1::::<><><>0<>0<><>::uid://gkqnfk8uwg4t::::res://game/Types/vocab_word.gd
-::res://sprites/::1747453676
-arteries.png::CompressedTexture2D/CompressedTexture2D::1308313854791164552::1747275098::1747275116::1::::<><><>0<>0<>22bd0415c2e18743944ac3318384c2de<>res://.godot/imported/arteries.png-ccd16231bb587ea47f55d56d57b34e8a.ctex::
-arteries_click.png::BitMap/BitMap::6246635160392214006::1747275098::1747275115::1::::<><><>0<>0<>1b64f1bde33ae459cc5985fcc786bed3<>res://.godot/imported/arteries_click.png-3b4e0e4c7ba9fd49a33040efb8f1b545.res::
-atrium_click.png::BitMap/BitMap::2417511414938121369::1746495621::1746495637::1::::<><><>0<>0<>0d0ce748ea9b97127c0dd9c83d0dc083<>res://.godot/imported/atrium_click.png-871d43b91e1e188e217cb22f08085d90.res::
-atrium_hover.png::CompressedTexture2D/CompressedTexture2D::1038538728119271566::1746658449::1746660273::1::::<><><>0<>0<>9b30d3b3685a4de287ed0301df5d76bf<>res://.godot/imported/atrium_hover.png-48aa429fa5373aca83e670aa42e664f8.ctex::
-bottom_arrow.png::CompressedTexture2D/CompressedTexture2D::4337233066073426445::1746495621::1746495637::1::::<><><>0<>0<>b20ff511eea33d15ee3d025ed4276757<>res://.godot/imported/bottom_arrow.png-f2f3a1c9cac3b099a48f023ef3ddc38b.ctex::
-capillary_beds.png::CompressedTexture2D/CompressedTexture2D::3448838145873401280::1747275098::1747275116::1::::<><><>0<>0<>790010bd20a6e867a5ff3f4dc8c022a5<>res://.godot/imported/capillary_beds.png-d0609bdc3d505abcea12d9ea82a3ba12.ctex::
-capillary_beds_click.png::BitMap/BitMap::2300217723921072992::1747275098::1747275115::1::::<><><>0<>0<>b74db8d29c6160f037b4b9af48016e26<>res://.godot/imported/capillary_beds_click.png-1dbd1273196ec3eb762415761b23f51f.res::
-fish_artery.png::CompressedTexture2D/CompressedTexture2D::5485555897278136260::1747361784::1747361808::1::::<><><>0<>0<>4473d565e7a06df198839331f7e66908<>res://.godot/imported/fish_artery.png-1014683e55846c1283caac5896a85dc7.ctex::
-fish_artery_click.png::BitMap/BitMap::7146724538455077633::1747361784::1747361806::1::::<><><>0<>0<>46d210078b74652e50cbb336392157b5<>res://.godot/imported/fish_artery_click.png-a02579344f9d3b453c7ba8864cf489b2.res::
-fish_atrium.png::CompressedTexture2D/CompressedTexture2D::8059374015705597105::1747361784::1747361808::1::::<><><>0<>0<>e987317ab258504e207167b37baabc73<>res://.godot/imported/fish_atrium.png-48d7283a69bf0989016a9efaf2400397.ctex::
-fish_atrium_click.png::BitMap/BitMap::7167872697778864730::1747361784::1747361806::1::::<><><>0<>0<>280b2dcbca914b21ebaf508c72a6ae55<>res://.godot/imported/fish_atrium_click.png-c021ce8e79c93f0ec5612f9a2720ce79.res::
-fish_capillary.png::CompressedTexture2D/CompressedTexture2D::3112497427629849268::1747361784::1747361808::1::::<><><>0<>0<>02f287a727b8b4242dd4c159918a7e6f<>res://.godot/imported/fish_capillary.png-045330174dae4244eeda9e6f1f3738fb.ctex::
-fish_capillary_click.png::BitMap/BitMap::537040007891874435::1747361784::1747361806::1::::<><><>0<>0<>ffdbab70358ce77606c53bf9fc624018<>res://.godot/imported/fish_capillary_click.png-aa41df367b1fb143768107641602c7ce.res::
-fish_system.png::CompressedTexture2D/CompressedTexture2D::5436365678767115320::1747278377::1747279217::1::::<><><>0<>0<>d7af760490d6d23be3e3ba3af37cc12f<>res://.godot/imported/fish_system.png-49319fac655971d08e3efc245eb41676.ctex::
-fish_vein.png::CompressedTexture2D/CompressedTexture2D::8476638145762539979::1747361784::1747361808::1::::<><><>0<>0<>0aeea580fd144f2a9c76aeb2cd7667ce<>res://.godot/imported/fish_vein.png-5a167f36a05a910a304bc1e4e230df0e.ctex::
-fish_vein_click.png::BitMap/BitMap::5214335086799662764::1747361784::1747361806::1::::<><><>0<>0<>87ed478d82424ba75c5ef9c0a615f6f1<>res://.godot/imported/fish_vein_click.png-811792665f0566349fe81a3b9c7b340e.res::
-fish_ventricle.png::CompressedTexture2D/CompressedTexture2D::8091997219765952197::1747279196::1747279226::1::::<><><>0<>0<>6583590894f6baafab9f8b15d2c0dd83<>res://.godot/imported/fish_ventricle.png-eeb4cc7b0963f8faa01c6d2a79ef6a1d.ctex::
-fish_ventricle_click.png::BitMap/BitMap::2356749804760040097::1747279262::1747279272::1::::<><><>0<>0<>080d891251b29a19a14d87ff052073e1<>res://.godot/imported/fish_ventricle_click.png-9f83bdd8cc3e8e6baf43fc3220ed3b72.res::
-full_system.png::CompressedTexture2D/CompressedTexture2D::4139587417138806080::1746495621::1746495638::1::::<><><>0<>0<>3f804730c2e75b01bc2d8fe1d0f2726f<>res://.godot/imported/full_system.png-ef313c3c248465e002b1031cad725baa.ctex::
-heart_norm.png::CompressedTexture2D/CompressedTexture2D::3620252278517526356::1744902602::1746069840::1::::<><><>0<>0<>4e780a66881bc304e698bfe41e6d260a<>res://.godot/imported/heart_norm.png-627588c1113433d3176cf6304c035a40.ctex::
-lung_click.png::BitMap/BitMap::2112984857356080905::1746658449::1746660272::1::::<><><>0<>0<>4f8c4efa0cf6465f3d5054df1dc21203<>res://.godot/imported/lung_click.png-7e67af45c5a934d3ade06b68ec37e7d6.res::
-lung_hover.png::CompressedTexture2D/CompressedTexture2D::1979834922413485062::1746658449::1746660273::1::::<><><>0<>0<>fa3bfd6713963ca1d331fa95a5deb92f<>res://.godot/imported/lung_hover.png-5d1bb6fad8dc5abeb02e53414e7e9bff.ctex::
-play_heart.png::CompressedTexture2D::8489089572785052655::1747453006::1747453006::1::::<><><>0<>0<>970127794853654e22814097c658092e<>res://.godot/imported/play_heart.png-d7d74efa12af7c8d69612f3e38326dd6.ctex::
-play_heart_hover.png::CompressedTexture2D::3125637895648145394::1747453008::1747453008::1::::<><><>0<>0<>243fd44b97b2cd8cffe61ce7bb35139c<>res://.godot/imported/play_heart_hover.png-f5d6724fde06c3eb88c7229da1d3aab7.ctex::
-play_heart_mask.png::BitMap::4202462052067776953::1747453676::1747453682::1::::<><><>0<>0<>ee5a98e97cbe5717758d93c101447654<>res://.godot/imported/play_heart_mask.png-29fc4a05de8497d57f12b14adab016e1.res::
-side_arrow.png::CompressedTexture2D/CompressedTexture2D::6352963095607610964::1746330869::1746495637::1::::<><><>0<>0<>5aa2e86c3f844dc1cc3a4f319ad596ea<>res://.godot/imported/side_arrow.png-94a7b91a31e2c73a06cb1ff9f7be2098.ctex::
-title_screen.png::CompressedTexture2D/CompressedTexture2D::3325301727783594347::1747452163::1747452177::1::::<><><>0<>0<>828c20d24ecd7e799449528bf0d9c321<>res://.godot/imported/title_screen.png-80fbee8594c45467bfcfc19e7531b92b.ctex::
-veins.png::CompressedTexture2D/CompressedTexture2D::8006730076143293923::1747275098::1747275116::1::::<><><>0<>0<>13da27a690c5296c2add9078cbdb54d5<>res://.godot/imported/veins.png-bedac6ee6de78e133a94ec5d0eed0e70.ctex::
-veins_click.png::BitMap/BitMap::8159120006853543848::1747275098::1747275115::1::::<><><>0<>0<>bdd10f3f7f6f96adab8ba282aa41ead7<>res://.godot/imported/veins_click.png-ab043d7f2066feed93926b683094ce11.res::
-ventricle_click.png::BitMap/BitMap::5179429361775646295::1746658449::1746660272::1::::<><><>0<>0<>aadd6368def0d0b834d20b14e150532f<>res://.godot/imported/ventricle_click.png-8dd47033b7be5252ab2fab4cf79fa755.res::
-ventricle_hover.png::CompressedTexture2D/CompressedTexture2D::896815433216353281::1746658449::1746660273::1::::<><><>0<>0<>e518cb1f08489091bcbf420e44acb8be<>res://.godot/imported/ventricle_hover.png-7097f82129b903e303c7a0e8fa4e8070.ctex::
+::res://::1747478671
+Bio Teaching Project.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::7666866453797370801::1746502413::1746502456::1::::<><><>0<>0<>7ba37ab56ecfb3a123719df17abc4401<>res://.godot/imported/Bio Teaching Project.apple-touch-icon.png-379a90c545899f6408766e440c3a1430.ctex::
+Bio Teaching Project.icon.png::CompressedTexture2D/CompressedTexture2D::2180763828898710532::1746502413::1746502456::1::::<><><>0<>0<>e7d919a5ce0b8703aa99808dab92bd84<>res://.godot/imported/Bio Teaching Project.icon.png-fe03f42ebf50d83798b29a794fba92b2.ctex::
+Bio Teaching Project.png::CompressedTexture2D/CompressedTexture2D::8441602513231427936::1746502413::1746502456::1::::<><><>0<>0<>9fad59b16325940b0cdf0f0f5cbb67e0<>res://.godot/imported/Bio Teaching Project.png-a0dd8387f43c46f700c85cef3b31b5c9.ctex::
+export_presets.cfg::TextFile/TextFile::-1::1746502413::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::5432407446256485572::1744793715::1744793747::1::::<><><>0<>0<>6dfaeacbb58872081137af2d3e5bff38<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+organ_bus.gd::GDScript/GDScript::4483504119288394560::1747213601::0::1::::<>Node<><>0<>0<><>::
+::res://exports/::1746502413
+::res://exports/web/::1747126863
+Bio Teaching Project.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::7119752565917035368::1747126755::1747126863::1::::<><><>0<>0<>9b63464c73d8aaa23f053299f05f9201<>res://.godot/imported/Bio Teaching Project.apple-touch-icon.png-af9eee4ddbbb7a7f1bcdd9be13125cc5.ctex::
+Bio Teaching Project.icon.png::CompressedTexture2D/CompressedTexture2D::3727712593821217768::1747126755::1747126863::1::::<><><>0<>0<>f31077539ac9041a44833480f1e6bc74<>res://.godot/imported/Bio Teaching Project.icon.png-f2ffff155b466b34a7f4f40a282236a1.ctex::
+Bio Teaching Project.png::CompressedTexture2D/CompressedTexture2D::752015603817069696::1747126755::1747126863::1::::<><><>0<>0<>38516b463e1169a057cf4a02614ada03<>res://.godot/imported/Bio Teaching Project.png-f2a966a8952bdf9be143c3d14d3f6f0f.ctex::
+::res://Game/::1744889318
+::res://Game/Misc/::1747482338
+darken_shader.gdshader::Shader::3525316353978556801::1747482338::0::1::::<><><>0<>0<><>::
+darken_shader.tscn::PackedScene/PackedScene::3407864731377576759::1746607283::0::1::::<><><>0<>0<><>::uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://cjnq7sifwrkto::::res://icon.svg
+global.gd::GDScript::1326740354383515739::1747482075::0::1::::<>Node<><>0<>0<><>::
+KGPerfectPenmanship.otf::FontFile/FontFile::1590644085290836903::1747298439::1747471019::1::::<><><>0<>0<>cce5785cfc332145c0d04dfbe4c939ad<>res://.godot/imported/KGPerfectPenmanship.otf-ed4834a5c626c5a4a89592373822fab5.fontdata::
+Kiwi Fruit.otf::FontFile/FontFile::65330349062928250::1746266465::1747471019::1::::<><><>0<>0<>b852bc340cd9ae011765f08f545b51a5<>res://.godot/imported/Kiwi Fruit.otf-2d2a3a268b737e672415034004b1040f.fontdata::
+Letters for Learners.ttf::FontFile/FontFile::2927971697356524270::1747298439::1747471019::1::::<><><>0<>0<>ab7094a35d74abde210a1614dde32bf6<>res://.godot/imported/Letters for Learners.ttf-f26eb015a91ef68579167eed2a8e9309.fontdata::
+theme.tres::Theme::7085385515821117549::1747471077::0::1::::<><><>0<>0<><>::uid://wwrw8djf8fn8::::res://Game/Misc/KGPerfectPenmanship.otf<>uid://bhyljbt0ryfi1::::res://Game/Misc/Letters for Learners.ttf
+vocab_list.gd::GDScript/GDScript::1655487725923280986::1746606959::0::1::::<>Node<><>0<>0<><>::
+::res://Game/Scenes/::1747482338
+gui.gd::GDScript/GDScript::2354105029512730118::1746266465::0::1::::<>Control<><>0<>0<><>::
+main.tscn::PackedScene::1398705895160539112::1747482338::0::1::::<><><>0<>0<><>::uid://bt4fjr3ldsqj0::::res://Game/Scenes/screens/start_screen.tscn
+panel.gd::GDScript/GDScript::5922435674094525878::1746474393::0::1::::<>Panel<><>0<>0<><>::
+nav_container.gd::GDScript::2598524419713048672::1747479789::0::1::::<>HBoxContainer<><>0<>0<><>::
+start_button.gd::GDScript/GDScript::4569047321311939878::1746266927::0::1::::<>TextureButton<><>0<>0<><>::
+tab_container.gd::GDScript::8057285265672379920::1747479402::0::1::::<>ScrollContainer<><>0<>0<><>::
+tab_container.tscn::PackedScene::2214451585301045617::1747482338::0::1::::<><><>0<>0<><>::uid://dm2aktxduvk4g::::res://Game/Scenes/tab_container.gd<>uid://bda0k2cy21u13::::res://Game/Scenes/nav_container.gd
+::res://Game/Scenes/screens/::1747482338
+after_start.tscn::PackedScene::4988821731076608009::1747482338::0::1::::<><><>0<>0<><>::
+bottom_pannel_expand.gd::GDScript::3170642839400464334::1747479493::0::1::::<>TextureButton<><>0<>0<><>::
+button.gd::GDScript/GDScript::6277670212089436546::1746607561::0::1::::<>TextureButton<><>0<>0<><>::
+currently_at.gd::GDScript/GDScript::3388233027872822649::1747260514::0::1::::<>RichTextLabel<><>0<>0<><>::
+fish_button.gd::GDScript::4621467510162934551::1747473600::0::1::::<>Button<><>0<>0<><>::
+organ_screen.gd::GDScript::6171087465160664812::1747482053::0::1::::<>Control<><>0<>0<><>::
+organ_screen.tscn::PackedScene::5859029757059379194::1747482338::0::1::::<><><>0<>0<><>::uid://ct6k550evtolw::::res://Game/Scenes/screens/organ_screen.gd<>uid://c4jqfa6o58u8g::::res://Game/Scenes/screens/scroll_container.gd<>uid://tjse0npxi2f::::res://Game/Scenes/screens/vocab_container.gd<>uid://cvo7kt07q2cc5::::res://Game/Scenes/screens/button.gd<>uid://blf5a3egwrk1k::::res://Game/Scenes/screens/bottom_pannel_expand.gd<>uid://bqhxpe04s3u7r::::res://Game/Misc/darken_shader.gdshader<>uid://6sxxul5ynxuf::::res://Game/Scenes/tab_container.tscn<>uid://bojjx5uoy7a62::::res://Game/Scenes/screens/currently_at.gd<>uid://wwrw8djf8fn8::::res://Game/Misc/KGPerfectPenmanship.otf
+scroll_container.gd::GDScript/GDScript::6827877682095911328::1747126755::0::1::::<>ScrollContainer<><>0<>0<><>::
+start_screen.gd::GDScript::7822474541548509385::1747473600::0::1::::<>Control<><>0<>0<><>::
+start_screen.tscn::PackedScene::3780196261448427307::1747482338::0::1::::<><><>0<>0<><>::uid://djpjao26167l2::::res://Game/Scenes/screens/start_screen.gd<>uid://bnm2h7cmcpv84::::res://sprites/title_screen.png<>uid://ds7gchepq7fhn::::res://sprites/play_heart.png<>uid://bksc2gg013slu::::res://sprites/play_heart_hover.png<>uid://bw0lutq56dl38::::res://Game/Scenes/screens/texture_button.gd
+texture_button.gd::GDScript/GDScript::3982889314444981069::1747470876::0::1::::<>TextureButton<><>0<>0<><>::
+vocab_container.gd::GDScript/GDScript::39802023877452739::1747260514::0::1::::<>VBoxContainer<><>0<>0<><>::
+::res://Game/Types/::1747482338
+atrium.gd::GDScript/GDScript::8112356837909727006::1747215150::0::1::::<>TextureButton<><>0<>0<><>::
+capillary_beds.png::CompressedTexture2D/CompressedTexture2D::7070874093033797570::1747128141::1747471020::1::::<><><>0<>0<>e11bd93dea9ac8c2617dcb37177dee41<>res://.godot/imported/capillary_beds.png-d319cb6af878d49ad2489e5502f3a3fa.ctex::
+container.gd::GDScript/GDScript::8259435793710891121::1747298439::0::1::::<>AspectRatioContainer<><>0<>0<><>::
+fish_system.tscn::PackedScene::3300142046874346513::1747482338::0::1::::<><><>0<>0<><>::uid://dpw6x3enjm306::::res://Game/Types/container.gd<>uid://bqhxpe04s3u7r::::res://Game/Misc/darken_shader.gdshader<>uid://cjpofbvk5t6js::::res://sprites/fish_system.png<>uid://cgkq4rfvoyif3::::res://Game/Types/organ_sprite.gd<>uid://dm3ayhybnyfg8::::res://sprites/fish_atrium.png<>uid://daef20nyurbve::::res://sprites/fish_atrium_click.png<>uid://dntxljwu3h5mw::::res://Game/Types/atrium.gd<>uid://dnj3an23rbh30::::res://sprites/fish_ventricle.png<>uid://8tvlbwglk38p::::res://sprites/fish_ventricle_click.png<>uid://fxjw0vu7urr0::::res://Game/Types/ventricle.gd<>uid://bklym33wapof1::::res://sprites/fish_capillary.png<>uid://hwe784iufr52::::res://sprites/fish_capillary_click.png<>uid://ckfiklvotw5wa::::res://sprites/fish_artery.png<>uid://c826rknxp1hs8::::res://sprites/fish_artery_click.png<>uid://ds1e8ysbiefhj::::res://sprites/fish_vein.png<>uid://cgj4lpvvwv37u::::res://sprites/fish_vein_click.png
+full_system.tscn::PackedScene/PackedScene::7828755410181865627::1747470876::0::1::::<><><>0<>0<><>::uid://bqhxpe04s3u7r::::res://game/Misc/darken_shader.gdshader<>uid://by8inul8uc4p5::::res://sprites/full_system.png<>uid://dpw6x3enjm306::::res://game/Types/container.gd<>uid://bapccbeoqsysf::::res://sprites/atrium_click.png<>uid://cgkq4rfvoyif3::::res://game/Types/organ_sprite.gd<>uid://o2ct01lg0q7g::::res://sprites/atrium_hover.png<>uid://dntxljwu3h5mw::::res://game/Types/atrium.gd<>uid://m1ooisu4g3l2::::res://sprites/ventricle_hover.png<>uid://cf17pei7iejat::::res://sprites/ventricle_click.png<>uid://fxjw0vu7urr0::::res://game/Types/ventricle.gd<>uid://3hbueiu386ys::::res://sprites/lung_hover.png<>uid://5dss08qcxcon::::res://sprites/lung_click.png<>uid://c70gi7ktjriqk::::res://game/Types/capillary_beds.png<>uid://71iiq28q1poy::::res://sprites/capillary_beds_click.png<>uid://sv00df8iko2k::::res://sprites/arteries.png<>uid://cu86fyyvtv7s1::::res://sprites/arteries_click.png<>uid://dmcrw610x4mut::::res://sprites/veins.png<>uid://doilrqx701xmu::::res://sprites/veins_click.png
+organ_sprite.gd::GDScript/GDScript::5215642368257279462::1747261033::0::1::::<>TextureRect<><>0<>0<><>::
+nav_button.tscn::PackedScene::2763008570704971636::1747482338::0::1::::<><><>0<>0<><>::uid://d2fqdj0wpecf5::::res://Game/Types/nav_button.gd
+nav_button.gd::GDScript::9065660059692500320::1747482283::0::1::::<>Button<><>0<>0<><>::
+texture_button.gd::GDScript/GDScript::1420850938168456264::1746479490::0::1::::<>TextureButton<><>0<>0<><>::
+ventricle.gd::GDScript/GDScript::399011993411266559::1746614987::0::1::::<>TextureButton<><>0<>0<><>::
+vocab_word.gd::GDScript/GDScript::442771806165582357::1747215770::0::1::::<>Button<><>0<>0<><>::
+vocab_word.tscn::PackedScene::903443790027846018::1747479798::0::1::::<><><>0<>0<><>::uid://gkqnfk8uwg4t::::res://Game/Types/vocab_word.gd
+::res://sprites/::1747482430
+arteries.png::CompressedTexture2D/CompressedTexture2D::1308313854791164552::1747129897::1747129910::1::::<><><>0<>0<>22bd0415c2e18743944ac3318384c2de<>res://.godot/imported/arteries.png-ccd16231bb587ea47f55d56d57b34e8a.ctex::
+arteries_click.png::BitMap/BitMap::6246635160392214006::1747129931::1747129937::1::::<><><>0<>0<>1b64f1bde33ae459cc5985fcc786bed3<>res://.godot/imported/arteries_click.png-3b4e0e4c7ba9fd49a33040efb8f1b545.res::
+atrium_click.png::BitMap/BitMap::2417511414938121369::1746477770::1746478168::1::::<><><>0<>0<>0d0ce748ea9b97127c0dd9c83d0dc083<>res://.godot/imported/atrium_click.png-871d43b91e1e188e217cb22f08085d90.res::
+atrium_hover.png::CompressedTexture2D/CompressedTexture2D::1038538728119271566::1746608407::1746608444::1::::<><><>0<>0<>9b30d3b3685a4de287ed0301df5d76bf<>res://.godot/imported/atrium_hover.png-48aa429fa5373aca83e670aa42e664f8.ctex::
+bottom_arrow.png::CompressedTexture2D/CompressedTexture2D::4337233066073426445::1746474253::1746474258::1::::<><><>0<>0<>b20ff511eea33d15ee3d025ed4276757<>res://.godot/imported/bottom_arrow.png-f2f3a1c9cac3b099a48f023ef3ddc38b.ctex::
+capillary_beds.png::CompressedTexture2D/CompressedTexture2D::3448838145873401280::1747128182::1747128190::1::::<><><>0<>0<>790010bd20a6e867a5ff3f4dc8c022a5<>res://.godot/imported/capillary_beds.png-d0609bdc3d505abcea12d9ea82a3ba12.ctex::
+capillary_beds_click.png::BitMap/BitMap::2300217723921072992::1747128478::1747128503::1::::<><><>0<>0<>b74db8d29c6160f037b4b9af48016e26<>res://.godot/imported/capillary_beds_click.png-1dbd1273196ec3eb762415761b23f51f.res::
+fish_artery.png::CompressedTexture2D/CompressedTexture2D::5485555897278136260::1747304206::1747304207::1::::<><><>0<>0<>4473d565e7a06df198839331f7e66908<>res://.godot/imported/fish_artery.png-1014683e55846c1283caac5896a85dc7.ctex::
+fish_artery_click.png::BitMap/BitMap::7146724538455077633::1747304215::1747304222::1::::<><><>0<>0<>46d210078b74652e50cbb336392157b5<>res://.godot/imported/fish_artery_click.png-a02579344f9d3b453c7ba8864cf489b2.res::
+fish_atrium.png::CompressedTexture2D/CompressedTexture2D::8059374015705597105::1747303880::1747303880::1::::<><><>0<>0<>e987317ab258504e207167b37baabc73<>res://.godot/imported/fish_atrium.png-48d7283a69bf0989016a9efaf2400397.ctex::
+fish_atrium_click.png::BitMap/BitMap::7167872697778864730::1747303886::1747303892::1::::<><><>0<>0<>280b2dcbca914b21ebaf508c72a6ae55<>res://.godot/imported/fish_atrium_click.png-c021ce8e79c93f0ec5612f9a2720ce79.res::
+fish_capillary.png::CompressedTexture2D/CompressedTexture2D::3112497427629849268::1747304896::1747304908::1::::<><><>0<>0<>02f287a727b8b4242dd4c159918a7e6f<>res://.godot/imported/fish_capillary.png-045330174dae4244eeda9e6f1f3738fb.ctex::
+fish_capillary_click.png::BitMap/BitMap::537040007891874435::1747304851::1747304857::1::::<><><>0<>0<>ffdbab70358ce77606c53bf9fc624018<>res://.godot/imported/fish_capillary_click.png-aa41df367b1fb143768107641602c7ce.res::
+fish_system.png::CompressedTexture2D/CompressedTexture2D::5436365678767115320::1747298439::1747300692::1::::<><><>0<>0<>d7af760490d6d23be3e3ba3af37cc12f<>res://.godot/imported/fish_system.png-49319fac655971d08e3efc245eb41676.ctex::
+fish_vein.png::CompressedTexture2D/CompressedTexture2D::8476638145762539979::1747304589::1747304590::1::::<><><>0<>0<>0aeea580fd144f2a9c76aeb2cd7667ce<>res://.godot/imported/fish_vein.png-5a167f36a05a910a304bc1e4e230df0e.ctex::
+fish_vein_click.png::BitMap/BitMap::5214335086799662764::1747304611::1747304617::1::::<><><>0<>0<>87ed478d82424ba75c5ef9c0a615f6f1<>res://.godot/imported/fish_vein_click.png-811792665f0566349fe81a3b9c7b340e.res::
+fish_ventricle.png::CompressedTexture2D/CompressedTexture2D::8091997219765952197::1747298439::1747300691::1::::<><><>0<>0<>6583590894f6baafab9f8b15d2c0dd83<>res://.godot/imported/fish_ventricle.png-eeb4cc7b0963f8faa01c6d2a79ef6a1d.ctex::
+fish_ventricle_click.png::BitMap/BitMap::2356749804760040097::1747298439::1747300691::1::::<><><>0<>0<>080d891251b29a19a14d87ff052073e1<>res://.godot/imported/fish_ventricle_click.png-9f83bdd8cc3e8e6baf43fc3220ed3b72.res::
+full_system.png::CompressedTexture2D/CompressedTexture2D::4139587417138806080::1746476572::1746476594::1::::<><><>0<>0<>3f804730c2e75b01bc2d8fe1d0f2726f<>res://.godot/imported/full_system.png-ef313c3c248465e002b1031cad725baa.ctex::
+heart_norm.png::CompressedTexture2D/CompressedTexture2D::3620252278517526356::1746266465::1746266556::1::::<><><>0<>0<>4e780a66881bc304e698bfe41e6d260a<>res://.godot/imported/heart_norm.png-627588c1113433d3176cf6304c035a40.ctex::
+lung_click.png::BitMap/BitMap::2112984857356080905::1746616853::1746616866::1::::<><><>0<>0<>4f8c4efa0cf6465f3d5054df1dc21203<>res://.godot/imported/lung_click.png-7e67af45c5a934d3ade06b68ec37e7d6.res::
+lung_hover.png::CompressedTexture2D/CompressedTexture2D::1979834922413485062::1746617543::1746617655::1::::<><><>0<>0<>fa3bfd6713963ca1d331fa95a5deb92f<>res://.godot/imported/lung_hover.png-5d1bb6fad8dc5abeb02e53414e7e9bff.ctex::
+play_heart.png::CompressedTexture2D/CompressedTexture2D::8489089572785052655::1747470876::1747471019::1::::<><><>0<>0<>970127794853654e22814097c658092e<>res://.godot/imported/play_heart.png-d7d74efa12af7c8d69612f3e38326dd6.ctex::
+play_heart_hover.png::CompressedTexture2D/CompressedTexture2D::3125637895648145394::1747470876::1747471019::1::::<><><>0<>0<>243fd44b97b2cd8cffe61ce7bb35139c<>res://.godot/imported/play_heart_hover.png-f5d6724fde06c3eb88c7229da1d3aab7.ctex::
+side_arrow.png::CompressedTexture2D/CompressedTexture2D::6352963095607610964::1746267013::1746267019::1::::<><><>0<>0<>5aa2e86c3f844dc1cc3a4f319ad596ea<>res://.godot/imported/side_arrow.png-94a7b91a31e2c73a06cb1ff9f7be2098.ctex::
+title_screen.png::CompressedTexture2D/CompressedTexture2D::3325301727783594347::1747470876::1747471019::1::::<><><>0<>0<>828c20d24ecd7e799449528bf0d9c321<>res://.godot/imported/title_screen.png-80fbee8594c45467bfcfc19e7531b92b.ctex::
+undo.png::CompressedTexture2D::3030367087457322970::1747482430::1747482431::1::::<><><>0<>0<>f0caeb40dab9ebbeda7e258fc2bcba6b<>res://.godot/imported/undo.png-964d16dfa2ac451f4e5ca9ccbf070ecb.ctex::
+veins.png::CompressedTexture2D/CompressedTexture2D::8006730076143293923::1747131002::1747131003::1::::<><><>0<>0<>13da27a690c5296c2add9078cbdb54d5<>res://.godot/imported/veins.png-bedac6ee6de78e133a94ec5d0eed0e70.ctex::
+veins_click.png::BitMap/BitMap::8159120006853543848::1747131014::1747131021::1::::<><><>0<>0<>bdd10f3f7f6f96adab8ba282aa41ead7<>res://.godot/imported/veins_click.png-ab043d7f2066feed93926b683094ce11.res::
+ventricle_click.png::BitMap/BitMap::5179429361775646295::1746613141::1746613154::1::::<><><>0<>0<>aadd6368def0d0b834d20b14e150532f<>res://.godot/imported/ventricle_click.png-8dd47033b7be5252ab2fab4cf79fa755.res::
+ventricle_hover.png::CompressedTexture2D/CompressedTexture2D::896815433216353281::1746613127::1746613128::1::::<><><>0<>0<>e518cb1f08489091bcbf420e44acb8be<>res://.godot/imported/ventricle_hover.png-7097f82129b903e303c7a0e8fa4e8070.ctex::

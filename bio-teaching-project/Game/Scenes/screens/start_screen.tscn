@@ -1,10 +1,10 @@
 [gd_scene load_steps=6 format=3 uid="uid://bt4fjr3ldsqj0"]
 
-[ext_resource type="Script" uid="uid://djpjao26167l2" path="res://game/scenes/screens/start_screen.gd" id="1_sopfb"]
+[ext_resource type="Script" uid="uid://djpjao26167l2" path="res://Game/Scenes/screens/start_screen.gd" id="1_sopfb"]
 [ext_resource type="Texture2D" uid="uid://bnm2h7cmcpv84" path="res://sprites/title_screen.png" id="2_sopfb"]
 [ext_resource type="Texture2D" uid="uid://ds7gchepq7fhn" path="res://sprites/play_heart.png" id="3_y30uu"]
 [ext_resource type="Texture2D" uid="uid://bksc2gg013slu" path="res://sprites/play_heart_hover.png" id="4_vc0hc"]
-[ext_resource type="Script" uid="uid://bw0lutq56dl38" path="res://game/scenes/screens/texture_button.gd" id="5_bdyd4"]
+[ext_resource type="Script" uid="uid://bw0lutq56dl38" path="res://Game/Scenes/screens/texture_button.gd" id="5_bdyd4"]
 
 [node name="StartScreen" type="Control"]
 layout_mode = 3
