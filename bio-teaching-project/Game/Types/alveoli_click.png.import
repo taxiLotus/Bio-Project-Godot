@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://bdjnhbhv2sx0r"
+path="res://.godot/imported/alveoli_click.png-904db14dc9a7e539bb39d0c7064babc0.res"
+
+[deps]
+
+source_file="res://game/Types/alveoli_click.png"
+dest_files=["res://.godot/imported/alveoli_click.png-904db14dc9a7e539bb39d0c7064babc0.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

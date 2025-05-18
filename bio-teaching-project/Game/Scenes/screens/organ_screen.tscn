@@ -1,14 +1,14 @@
 [gd_scene load_steps=13 format=3 uid="uid://cpqfmm47kfr2y"]
 
-[ext_resource type="Script" uid="uid://ct6k550evtolw" path="res://Game/Scenes/screens/organ_screen.gd" id="1_b6hia"]
-[ext_resource type="Script" uid="uid://c4jqfa6o58u8g" path="res://Game/Scenes/screens/scroll_container.gd" id="1_ghesr"]
-[ext_resource type="Script" uid="uid://tjse0npxi2f" path="res://Game/Scenes/screens/vocab_container.gd" id="1_vrbqd"]
-[ext_resource type="Script" uid="uid://cvo7kt07q2cc5" path="res://Game/Scenes/screens/button.gd" id="2_vrbqd"]
-[ext_resource type="Script" uid="uid://blf5a3egwrk1k" path="res://Game/Scenes/screens/bottom_pannel_expand.gd" id="4_emm2d"]
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="5_4assd"]
-[ext_resource type="PackedScene" uid="uid://6sxxul5ynxuf" path="res://Game/Scenes/tab_container.tscn" id="5_lltde"]
-[ext_resource type="Script" uid="uid://bojjx5uoy7a62" path="res://Game/Scenes/screens/currently_at.gd" id="8_4assd"]
-[ext_resource type="FontFile" uid="uid://wwrw8djf8fn8" path="res://Game/Misc/KGPerfectPenmanship.otf" id="8_42iub"]
+[ext_resource type="Script" uid="uid://ct6k550evtolw" path="res://game/scenes/screens/organ_screen.gd" id="1_b6hia"]
+[ext_resource type="Script" uid="uid://c4jqfa6o58u8g" path="res://game/scenes/screens/scroll_container.gd" id="1_ghesr"]
+[ext_resource type="Script" uid="uid://tjse0npxi2f" path="res://game/scenes/screens/vocab_container.gd" id="1_vrbqd"]
+[ext_resource type="Script" uid="uid://cvo7kt07q2cc5" path="res://game/scenes/screens/button.gd" id="2_vrbqd"]
+[ext_resource type="Script" uid="uid://blf5a3egwrk1k" path="res://game/scenes/screens/bottom_pannel_expand.gd" id="4_emm2d"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/Misc/darken_shader.gdshader" id="5_4assd"]
+[ext_resource type="PackedScene" uid="uid://6sxxul5ynxuf" path="res://game/scenes/tab_container.tscn" id="5_lltde"]
+[ext_resource type="Script" uid="uid://bojjx5uoy7a62" path="res://game/scenes/screens/currently_at.gd" id="8_4assd"]
+[ext_resource type="FontFile" uid="uid://wwrw8djf8fn8" path="res://game/Misc/KGPerfectPenmanship.otf" id="8_42iub"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_85j8a"]
 shader = ExtResource("5_4assd")

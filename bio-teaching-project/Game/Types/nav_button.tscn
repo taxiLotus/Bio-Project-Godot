@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bfmol2xktppaq"]
 
-[ext_resource type="Script" uid="uid://d2fqdj0wpecf5" path="res://Game/Types/nav_button.gd" id="1_ibbje"]
+[ext_resource type="Script" uid="uid://d2fqdj0wpecf5" path="res://game/Types/nav_button.gd" id="1_ibbje"]
 
 [sub_resource type="Theme" id="Theme_ibbje"]
 Button/colors/icon_normal_color = Color(1, 1, 1, 0.466667)

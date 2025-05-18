@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://wwrw8djf8fn8"
-path="res://.godot/imported/KGPerfectPenmanship.otf-ed4834a5c626c5a4a89592373822fab5.fontdata"
+path="res://.godot/imported/KGPerfectPenmanship.otf-e0e6199a1043ddfe4a825703bd969b04.fontdata"
 
 [deps]
 
-source_file="res://Game/Misc/KGPerfectPenmanship.otf"
-dest_files=["res://.godot/imported/KGPerfectPenmanship.otf-ed4834a5c626c5a4a89592373822fab5.fontdata"]
+source_file="res://game/Misc/KGPerfectPenmanship.otf"
+dest_files=["res://.godot/imported/KGPerfectPenmanship.otf-e0e6199a1043ddfe4a825703bd969b04.fontdata"]
 
 [params]
 

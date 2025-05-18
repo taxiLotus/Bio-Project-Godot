@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://xb2ron0imokq"
+path="res://.godot/imported/bronchus_click.png-7b7748c1e809b84760d4b37b3fb6670b.res"
+
+[deps]
+
+source_file="res://sprites/bronchus_click.png"
+dest_files=["res://.godot/imported/bronchus_click.png-7b7748c1e809b84760d4b37b3fb6670b.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

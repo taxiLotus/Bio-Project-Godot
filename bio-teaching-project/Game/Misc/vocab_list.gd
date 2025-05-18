@@ -23,6 +23,7 @@ var vocab = {
 	"Atrium" : "(plural, atria) A chamber of the vertebrate heart that receives blood from the veins and transfers blood to a ventricle.",
 	"Gas Exchange" : "The uptake of molecular oxygen from the environment and the discharge of carbon dioxide to the environment.",
 	"Bronchus" : "(plural, Bronchi) One of a pair of breathing tubes that branch from the trachea into the lungs.",
+	"Bronchiole" : "The finer tubes that bronchi branch into repeatedly.",
 	"Blood" : "A connective tissue with a fluid matrix called plasma in which red blood cells, white blood cells, and cell fragments called platelets are suspended.",
 	"Respiratory pigment" : "A protein that transports oxygen in blood or hemolymph.",
 	"Thrombus" : "A fibrin-containing clot that forms in a blood vessel and blocks the flow of blood.",

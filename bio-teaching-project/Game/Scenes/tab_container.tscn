@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://6sxxul5ynxuf"]
 
-[ext_resource type="Script" uid="uid://dm2aktxduvk4g" path="res://Game/Scenes/tab_container.gd" id="1_bmghs"]
-[ext_resource type="Script" uid="uid://bda0k2cy21u13" path="res://Game/Scenes/nav_container.gd" id="2_euu8s"]
+[ext_resource type="Script" uid="uid://dm2aktxduvk4g" path="res://game/scenes/tab_container.gd" id="1_bmghs"]
+[ext_resource type="Script" uid="uid://bda0k2cy21u13" path="res://game/scenes/nav_container.gd" id="2_euu8s"]
 
 [node name="TabContainer" type="ScrollContainer"]
 offset_left = 39.0

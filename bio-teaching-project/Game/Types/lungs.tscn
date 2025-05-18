@@ -1,0 +1,123 @@
+[gd_scene load_steps=18 format=3 uid="uid://dd7yjd725yetg"]
+
+[ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://game/Types/container.gd" id="1_wysfe"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="2_4njvd"]
+[ext_resource type="Texture2D" uid="uid://cc2clol1koljp" path="res://sprites/lungs_full.png" id="3_wysfe"]
+[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://game/Types/organ_sprite.gd" id="4_nvi08"]
+[ext_resource type="Texture2D" uid="uid://cxkwy0tfdgjjo" path="res://sprites/larynx_hover.png" id="5_4njvd"]
+[ext_resource type="BitMap" uid="uid://blkpp2jgitye2" path="res://sprites/larynx_click.png" id="6_fu4iy"]
+[ext_resource type="Script" uid="uid://dntxljwu3h5mw" path="res://game/Types/atrium.gd" id="7_8poln"]
+[ext_resource type="Texture2D" uid="uid://dtkum8tpwxup1" path="res://sprites/trachea.png" id="8_nvi08"]
+[ext_resource type="BitMap" uid="uid://cb83v8hvyxqw3" path="res://sprites/trachea_click.png" id="9_w6puq"]
+[ext_resource type="Script" uid="uid://fxjw0vu7urr0" path="res://game/Types/ventricle.gd" id="10_54up8"]
+[ext_resource type="Texture2D" uid="uid://bxdy8pfl2nlfj" path="res://sprites/bronchus.png" id="11_uoyff"]
+[ext_resource type="BitMap" uid="uid://xb2ron0imokq" path="res://sprites/bronchus_click.png" id="12_8poln"]
+[ext_resource type="Texture2D" uid="uid://cruo3441ehimf" path="res://sprites/bronchiole.png" id="13_ady3w"]
+[ext_resource type="BitMap" uid="uid://bo8dlxexy5ge0" path="res://sprites/bronchiole_click.png" id="14_xktvh"]
+[ext_resource type="Texture2D" uid="uid://dus7evj4gscq0" path="res://game/Types/alveoli.png" id="17_fu4iy"]
+[ext_resource type="BitMap" uid="uid://bdjnhbhv2sx0r" path="res://game/Types/alveoli_click.png" id="18_nvi08"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uwrxs"]
+shader = ExtResource("2_4njvd")
+shader_parameter/difference = 0.0
+
+[node name="Lung" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Container" type="AspectRatioContainer" parent="."]
+layout_mode = 0
+offset_left = 41.0
+offset_top = 33.0
+offset_right = 919.0
+offset_bottom = 553.0
+script = ExtResource("1_wysfe")
+
+[node name="FullSystemSprite" type="TextureRect" parent="Container"]
+material = SubResource("ShaderMaterial_uwrxs")
+layout_mode = 2
+focus_mode = 1
+texture = ExtResource("3_wysfe")
+expand_mode = 1
+script = ExtResource("4_nvi08")
+
+[node name="Larynx" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("5_4njvd")
+texture_hover = ExtResource("5_4njvd")
+texture_focused = ExtResource("5_4njvd")
+texture_click_mask = ExtResource("6_fu4iy")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("7_8poln")
+
+[node name="Trachea" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("8_nvi08")
+texture_hover = ExtResource("8_nvi08")
+texture_focused = ExtResource("8_nvi08")
+texture_click_mask = ExtResource("9_w6puq")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("10_54up8")
+
+[node name="Bronchus" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("11_uoyff")
+texture_hover = ExtResource("11_uoyff")
+texture_focused = ExtResource("11_uoyff")
+texture_click_mask = ExtResource("12_8poln")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("10_54up8")
+
+[node name="Bronchiole" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("13_ady3w")
+texture_hover = ExtResource("13_ady3w")
+texture_focused = ExtResource("13_ady3w")
+texture_click_mask = ExtResource("14_xktvh")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("10_54up8")
+
+[node name="Alveoli" type="TextureButton" parent="Container"]
+layout_mode = 2
+texture_pressed = ExtResource("17_fu4iy")
+texture_hover = ExtResource("17_fu4iy")
+texture_focused = ExtResource("17_fu4iy")
+texture_click_mask = ExtResource("18_nvi08")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("10_54up8")
+
+[connection signal="focus_entered" from="Container/Larynx" to="Container/FullSystemSprite" method="_on_atria_focus_entered"]
+[connection signal="focus_entered" from="Container/Larynx" to="Container/Larynx" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Container/Larynx" to="Container/FullSystemSprite" method="_on_atria_focus_exited"]
+[connection signal="focus_exited" from="Container/Larynx" to="Container/Larynx" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="Container/Larynx" to="Container/FullSystemSprite" method="_on_atria_mouse_entered"]
+[connection signal="mouse_entered" from="Container/Larynx" to="Container/Larynx" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Larynx" to="Container/FullSystemSprite" method="_on_atria_mouse_exited"]
+[connection signal="mouse_exited" from="Container/Larynx" to="Container/Larynx" method="_on_mouse_exited"]
+[connection signal="pressed" from="Container/Larynx" to="Container/FullSystemSprite" method="_on_atria_pressed"]
+[connection signal="pressed" from="Container/Larynx" to="Container/Larynx" method="_on_pressed"]
+[connection signal="focus_entered" from="Container/Trachea" to="Container/Trachea" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Container/Trachea" to="Container/Trachea" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="Container/Trachea" to="Container/Trachea" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Trachea" to="Container/Trachea" method="_on_mouse_exited"]
+[connection signal="pressed" from="Container/Trachea" to="Container/Trachea" method="_on_pressed"]
+[connection signal="focus_entered" from="Container/Bronchus" to="Container/Bronchus" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Container/Bronchus" to="Container/Bronchus" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="Container/Bronchus" to="Container/Bronchus" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Bronchus" to="Container/Bronchus" method="_on_mouse_exited"]
+[connection signal="pressed" from="Container/Bronchus" to="Container/Bronchus" method="_on_pressed"]
+[connection signal="focus_entered" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_mouse_exited"]
+[connection signal="pressed" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_pressed"]
+[connection signal="focus_entered" from="Container/Alveoli" to="Container/Alveoli" method="_on_focus_entered"]
+[connection signal="focus_exited" from="Container/Alveoli" to="Container/Alveoli" method="_on_focus_exited"]
+[connection signal="mouse_entered" from="Container/Alveoli" to="Container/Alveoli" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Container/Alveoli" to="Container/Alveoli" method="_on_mouse_exited"]
+[connection signal="pressed" from="Container/Alveoli" to="Container/Alveoli" method="_on_pressed"]

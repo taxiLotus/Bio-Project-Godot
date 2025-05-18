@@ -9,14 +9,16 @@ var current_organ_title
 var icons = {
 	"back" : "res://sprites/undo.png",
 	"full_system" : "res://sprites/full_system.png",
-	"fish_system" : "res://sprites/fish_system.png"
+	"fish_system" : "res://sprites/fish_system.png",
+	"lungs" : "res://sprites/lungs_full.png"
 }
 var titles = {
 	"full_system" : "Double Circulation (Mammalian)",
-	"fish_system" : "Double Circulation (Fish)"
+	"fish_system" : "Double Circulation (Fish)",
+	"lungs" : "Lungs"
 }
 
-var available_screens = ["full_system", "fish_system"]
+var available_screens = ["full_system", "fish_system", "lungs"]
 var back_history = []
 
 func handle_switch(organ):

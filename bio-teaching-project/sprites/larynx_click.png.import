@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://blkpp2jgitye2"
+path="res://.godot/imported/larynx_click.png-aa8d3eb12674c668427b827ffe3e32da.res"
+
+[deps]
+
+source_file="res://sprites/larynx_click.png"
+dest_files=["res://.godot/imported/larynx_click.png-aa8d3eb12674c668427b827ffe3e32da.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

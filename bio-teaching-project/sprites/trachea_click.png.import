@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://cb83v8hvyxqw3"
+path="res://.godot/imported/trachea_click.png-fa9145b1c9cd5f927092c333ca35ddfb.res"
+
+[deps]
+
+source_file="res://sprites/trachea_click.png"
+dest_files=["res://.godot/imported/trachea_click.png-fa9145b1c9cd5f927092c333ca35ddfb.res"]
+
+[params]
+
+create_from=0
+threshold=0.5
