@@ -1,5 +1,5 @@
 res://Game/Scenes/main.tscn
-res://Game/Misc/theme.tres
+res://game/Misc/theme.tres
 res://Game/Misc/darken_shader.gdshader
 res://Game/Scenes/screens/start_screen.tscn
 res://Game/Scenes/screens/after_start.tscn
@@ -8,9 +8,9 @@ res://Game/Scenes/tab_container.tscn
 res://Game/Types/fish_system.tscn
 res://Game/Types/nav_button.tscn
 res://game/scenes/screens/start_screen.tscn
-res://game/Misc/vocab_list.gd
 res://game/Types/lungs.tscn
 res://game/Types/full_system.tscn
-res://game/Misc/global.gd
+res://game/Types/alvioli.tscn
 res://Game/Misc/global.gd
+res://game/Types/alveoli.tscn
 res://game/scenes/screens/organ_screen.gd

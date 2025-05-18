@@ -1,7 +1,7 @@
 [gd_scene load_steps=18 format=3 uid="uid://dd7yjd725yetg"]
 
 [ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://game/Types/container.gd" id="1_wysfe"]
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="2_4njvd"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/Misc/darken_shader.gdshader" id="2_4njvd"]
 [ext_resource type="Texture2D" uid="uid://cc2clol1koljp" path="res://sprites/lungs_full.png" id="3_wysfe"]
 [ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://game/Types/organ_sprite.gd" id="4_nvi08"]
 [ext_resource type="Texture2D" uid="uid://cxkwy0tfdgjjo" path="res://sprites/larynx_hover.png" id="5_4njvd"]

@@ -10,15 +10,17 @@ var icons = {
 	"back" : "res://sprites/undo.png",
 	"full_system" : "res://sprites/full_system.png",
 	"fish_system" : "res://sprites/fish_system.png",
-	"lungs" : "res://sprites/lungs_full.png"
+	"lungs" : "res://sprites/lungs_full.png",
+	"alveoli" : "res://sprites/bronchiole_closeup.png"
 }
 var titles = {
 	"full_system" : "Double Circulation (Mammalian)",
-	"fish_system" : "Double Circulation (Fish)",
-	"lungs" : "Lungs"
+	"fish_system" : "Single Circulation (Fish)",
+	"lungs" : "Lungs",
+	"alveoli" : "Alveoli Closeup"
 }
 
-var available_screens = ["full_system", "fish_system", "lungs"]
+var available_screens = ["full_system", "fish_system", "lungs", "alveoli"]
 var back_history = []
 
 func handle_switch(organ):

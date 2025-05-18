@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://ng2lejdustiw"
+path="res://.godot/imported/bronchiole_capillary_click.png-d09413f2dfe10c32518e394dc1cfbaa1.res"
+
+[deps]
+
+source_file="res://sprites/bronchiole_capillary_click.png"
+dest_files=["res://.godot/imported/bronchiole_capillary_click.png-d09413f2dfe10c32518e394dc1cfbaa1.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

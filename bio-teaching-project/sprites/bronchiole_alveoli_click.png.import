@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://rfb7bl50vcd6"
+path="res://.godot/imported/bronchiole_alveoli_click.png-74983dca5b4526b49b6d80ff2acb97ab.res"
+
+[deps]
+
+source_file="res://sprites/bronchiole_alveoli_click.png"
+dest_files=["res://.godot/imported/bronchiole_alveoli_click.png-74983dca5b4526b49b6d80ff2acb97ab.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

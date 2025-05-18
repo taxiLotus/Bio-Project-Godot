@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://dnqmtno0yo5tx"
+path="res://.godot/imported/bronchiole_cutout_click.png-dfe45643ac0caa599dc11031c4723265.res"
+
+[deps]
+
+source_file="res://sprites/bronchiole_cutout_click.png"
+dest_files=["res://.godot/imported/bronchiole_cutout_click.png-dfe45643ac0caa599dc11031c4723265.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

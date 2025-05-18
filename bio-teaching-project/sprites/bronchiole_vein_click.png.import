@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://cm3gemxl67axe"
+path="res://.godot/imported/bronchiole_vein_click.png-5c26acdb3041d73d3fa6f5bf4c02eebf.res"
+
+[deps]
+
+source_file="res://sprites/bronchiole_vein_click.png"
+dest_files=["res://.godot/imported/bronchiole_vein_click.png-5c26acdb3041d73d3fa6f5bf4c02eebf.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

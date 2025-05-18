@@ -1,0 +1,16 @@
+[remap]
+
+importer="bitmap"
+type="BitMap"
+uid="uid://beaddmk88tfi3"
+path="res://.godot/imported/bronchiole_artery_click.png-5890d8e774c490576ef284ad7d8dce88.res"
+
+[deps]
+
+source_file="res://sprites/bronchiole_artery_click.png"
+dest_files=["res://.godot/imported/bronchiole_artery_click.png-5890d8e774c490576ef284ad7d8dce88.res"]
+
+[params]
+
+create_from=0
+threshold=0.5

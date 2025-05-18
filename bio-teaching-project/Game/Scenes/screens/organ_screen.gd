@@ -29,6 +29,14 @@ func _enter_tree():
 		VocabList.current_vocab.append("Bronchiole")
 		VocabList.current_vocab.append("Alveoli")
 		organ = preload("res://game/Types/lungs.tscn")
+		
+	if Global.current_organ == "alveoli":
+		VocabList.current_vocab.append("Bronchiole")
+		VocabList.current_vocab.append("Alveoli")
+		VocabList.current_vocab.append("Vein")
+		VocabList.current_vocab.append("Artery")
+		VocabList.current_vocab.append("Capillary")
+		organ = preload("res://game/Types/alveoli.tscn")
 	
 	VocabList.current_vocab.sort()
 	var instance = organ.instantiate()
