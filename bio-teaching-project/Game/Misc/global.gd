@@ -14,6 +14,7 @@ var icons = {
 	"alveoli" : "res://sprites/bronchiole_closeup.png"
 }
 var titles = {
+	"back" : "",
 	"full_system" : "Double Circulation (Mammalian)",
 	"fish_system" : "Single Circulation (Fish)",
 	"lungs" : "Lungs",
@@ -23,12 +24,17 @@ var titles = {
 var available_screens = ["full_system", "fish_system", "lungs", "alveoli"]
 var back_history = []
 
+func sort_by_title(a, b):
+	if(titles[a] < titles[b]):
+		return true
+	return false
+
 func handle_switch(organ):
 	if current_organ != null:
 		available_screens.append(current_organ)
 		if organ != "back":
 			back_history.append(current_organ)
-	available_screens.sort()
+	available_screens.sort_custom(sort_by_title)
 	
 	if back_history.size() > 0 and available_screens[0] != "back":
 		available_screens.insert(0, "back")

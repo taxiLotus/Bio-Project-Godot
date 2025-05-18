@@ -1,7 +1,7 @@
 [gd_scene load_steps=18 format=3 uid="uid://bppoxwmdj7tcu"]
 
 [ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://game/Types/container.gd" id="1_i3xke"]
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://Game/Misc/darken_shader.gdshader" id="2_lg7a6"]
+[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/Misc/darken_shader.gdshader" id="2_lg7a6"]
 [ext_resource type="Texture2D" uid="uid://bcb7tm4npwoef" path="res://sprites/bronchiole_closeup.png" id="3_piibh"]
 [ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://game/Types/organ_sprite.gd" id="4_hn5hd"]
 [ext_resource type="Texture2D" uid="uid://jn3abfrvfdkd" path="res://sprites/bronchiole_cutout.png" id="5_lhkum"]
