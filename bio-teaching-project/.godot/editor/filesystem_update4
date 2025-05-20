@@ -12,3 +12,4 @@ res://game/Types/lungs.tscn
 res://game/Types/full_system.tscn
 res://game/Types/alveoli.tscn
 res://game/Types/nav_button.tscn
+res://config.gd
