@@ -1,7 +1,7 @@
 extends VBoxContainer
 
 func _enter_tree() -> void:
-	if get_child(0) != null:
+	if get_child_count() > 0:
 		while get_child(0) != null:
 			get_child(0).queue_free()
 

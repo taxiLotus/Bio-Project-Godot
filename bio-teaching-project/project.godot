@@ -17,11 +17,11 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Global="*res://Game/Misc/global.gd"
-VocabList="*res://game/Misc/vocab_list.gd"
+VocabList="*res://game/misc/vocab_list.gd"
 OrganBus="*res://organ_bus.gd"
 Config="*res://config.gd"
 DataRepository="*res://data_repository.tscn"
+Global="*res://game/misc/global.gd"
 
 [display]
 
@@ -53,7 +53,3 @@ right_click={
 "events": [Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":2,"position":Vector2(460, 22),"global_position":Vector2(479, 118),"factor":1.0,"button_index":2,"canceled":false,"pressed":true,"double_click":false,"script":null)
 ]
 }
-
-[rendering]
-
-renderer/rendering_method="mobile"

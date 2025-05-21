@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dus7evj4gscq0"
-path="res://.godot/imported/alveoli.png-54c590bb74ad06c69365905e441df102.ctex"
+path="res://.godot/imported/alveoli.png-d400e8debee5f3cc9331e7caba4edd87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/Types/alveoli.png"
-dest_files=["res://.godot/imported/alveoli.png-54c590bb74ad06c69365905e441df102.ctex"]
+source_file="res://game/types/alveoli.png"
+dest_files=["res://.godot/imported/alveoli.png-d400e8debee5f3cc9331e7caba4edd87.ctex"]
 
 [params]
 

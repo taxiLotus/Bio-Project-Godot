@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://m4vt73msk5a1"]
 
-[ext_resource type="Script" uid="uid://gkqnfk8uwg4t" path="res://Game/Types/vocab_word.gd" id="1_8mrct"]
+[ext_resource type="Script" uid="uid://gkqnfk8uwg4t" path="res://game/types/vocab_word.gd" id="1_8mrct"]
 
 [node name="VocabWord" type="Button"]
 offset_left = 80.0

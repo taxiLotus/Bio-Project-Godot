@@ -44,6 +44,7 @@ func handle_switch(organ):
 		current_organ = back_history.pop_back()
 		if back_history.size() == 0:
 			available_screens.erase("back")
+
 	goto_scene("res://game/scenes/screens/organ_screen.tscn")
 	available_screens.erase(current_organ)
 	current_organ_title = titles[current_organ]

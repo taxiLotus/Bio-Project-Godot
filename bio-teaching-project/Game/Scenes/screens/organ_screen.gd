@@ -12,7 +12,7 @@ func _enter_tree():
 		VocabList.current_vocab.append("Ventricle")
 		VocabList.current_vocab.append("Atrium")
 		VocabList.current_vocab.append("Lung")
-		organ = preload("res://Game/Types/full_system.tscn")
+		organ = preload("res://game/types/full_system.tscn")
 		
 	if Global.current_organ == "fish_system":
 		VocabList.current_vocab.append("Vein")
@@ -20,7 +20,7 @@ func _enter_tree():
 		VocabList.current_vocab.append("Capillary")
 		VocabList.current_vocab.append("Ventricle")
 		VocabList.current_vocab.append("Atrium")
-		organ = preload("res://game/Types/fish_system.tscn")
+		organ = preload("res://game/types/fish_system.tscn")
 		
 	if Global.current_organ == "lungs":
 		VocabList.current_vocab.append("Larynx")
@@ -28,7 +28,7 @@ func _enter_tree():
 		VocabList.current_vocab.append("Bronchus")
 		VocabList.current_vocab.append("Bronchiole")
 		VocabList.current_vocab.append("Alveoli")
-		organ = preload("res://game/Types/lungs.tscn")
+		organ = preload("res://game/types/lungs.tscn")
 		
 	if Global.current_organ == "alveoli":
 		VocabList.current_vocab.append("Bronchiole")
@@ -36,7 +36,7 @@ func _enter_tree():
 		VocabList.current_vocab.append("Vein")
 		VocabList.current_vocab.append("Artery")
 		VocabList.current_vocab.append("Capillary")
-		organ = preload("res://game/Types/alveoli.tscn")
+		organ = preload("res://game/types/alveoli.tscn")
 	
 	VocabList.current_vocab.sort()
 	var instance = organ.instantiate()
