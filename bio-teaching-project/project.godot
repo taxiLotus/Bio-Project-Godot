@@ -21,6 +21,7 @@ Global="*res://Game/Misc/global.gd"
 VocabList="*res://game/Misc/vocab_list.gd"
 OrganBus="*res://organ_bus.gd"
 Config="*res://config.gd"
+DataRepository="*res://data_repository.tscn"
 
 [display]
 

@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://dn802ko5muyqo"]
+[gd_scene load_steps=2 format=3 uid="uid://dn802ko5muyqo"]
 
-[node name="data_repository" type="Node"]
+[ext_resource type="Script" uid="uid://ku5rybwcijqd" path="res://data_repository.gd" id="1_s6e2p"]
+
+[node name="DataRepository" type="Node"]
+script = ExtResource("1_s6e2p")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
