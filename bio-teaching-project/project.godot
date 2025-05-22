@@ -17,11 +17,11 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-VocabList="*res://game/misc/vocab_list.gd"
 OrganBus="*res://organ_bus.gd"
 Config="*res://config.gd"
 DataRepository="*res://data_repository.tscn"
 Global="*res://game/misc/global.gd"
+VocabList="*res://game/misc/vocab_list.gd"
 
 [display]
 

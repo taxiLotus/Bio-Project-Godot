@@ -1,7 +1,8 @@
 res://Game/Scenes/main.tscn
 res://game/misc/theme.tres
+res://game/misc/global.gd
+res://game/misc/darken_shader.gdshader
 res://Game/Misc/darken_shader.gdshader
-res://game/types/vocab_word.gd
 res://Game/Scenes/screens/start_screen.tscn
 res://Game/Scenes/screens/after_start.tscn
 res://Game/Scenes/screens/organ_screen.tscn
@@ -15,7 +16,25 @@ res://game/types/alveoli.tscn
 res://game/types/nav_button.tscn
 res://data_repository.tscn
 res://game/scenes/main.tscn
-res://game/scenes/screens/after_start.tscn
 res://game/scenes/screens/organ_screen.tscn
 res://test.tscn
 res://game/types/vocab_word.tscn
+res://game/scenes/tab_container.tscn
+res://game/types/fish_system.tscn
+res://game/misc/darken_shader.tscn
+res://game/scenes/screens/after_start.tscn
+res://game/types/ventricle.gd
+res://game/misc/infobox.tres
+res://game/types/infobox.gd
+res://game/types/infobox.tscn
+res://game/types/organ_sprite.gd
+res://game/types/lung.gd
+res://game/types/bronchiole.gd
+res://game/scenes/screens/organ_screen.gd
+res://game/types/bronchioles.tscn
+res://game/types/alveoli.gd
+res://sprites/alveoli_anim - Copy.ogv
+res://game/types/video_stream_player.gd
+res://game/types/alveoli.gdshader
+res://game/types/bloodpath.gd
+res://sprites/alveoli_anim.ogv

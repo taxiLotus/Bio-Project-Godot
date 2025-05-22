@@ -11,17 +11,19 @@ var icons = {
 	"full_system" : "res://sprites/full_system.png",
 	"fish_system" : "res://sprites/fish_system.png",
 	"lungs" : "res://sprites/lungs_full.png",
-	"alveoli" : "res://sprites/bronchiole_closeup.png"
+	"bronchioles" : "res://sprites/bronchiole_closeup.png",
+	"alveoli" : "res://sprites/alveoli_still.png"
 }
 var titles = {
 	"back" : "",
 	"full_system" : "Double Circulation (Mammalian)",
 	"fish_system" : "Single Circulation (Fish)",
 	"lungs" : "Lungs",
+	"bronchioles" : "Bronchiole Closeup",
 	"alveoli" : "Alveoli Closeup"
 }
 
-var available_screens = ["full_system", "fish_system", "lungs", "alveoli"]
+var available_screens = ["full_system", "fish_system", "lungs", "bronchioles", "alveoli"]
 var back_history = []
 
 func sort_by_title(a, b):
@@ -44,7 +46,6 @@ func handle_switch(organ):
 		current_organ = back_history.pop_back()
 		if back_history.size() == 0:
 			available_screens.erase("back")
-
 	goto_scene("res://game/scenes/screens/organ_screen.tscn")
 	available_screens.erase(current_organ)
 	current_organ_title = titles[current_organ]
@@ -54,10 +55,11 @@ func _ready():
 	current_scene = root.get_child(-1).get_child(-1)
 	
 func goto_scene(path):
+	path = path.to_lower()
 	_deferred_goto_scene.call_deferred(path)
 	
 func _deferred_goto_scene(path):
 	current_scene.free()
-	var s = ResourceLoader.load(path)
+	var s = ResourceLoader.load(path.to_lower())
 	current_scene = s.instantiate()
 	get_tree().root.get_child(-1).get_child(-1).add_child(current_scene)

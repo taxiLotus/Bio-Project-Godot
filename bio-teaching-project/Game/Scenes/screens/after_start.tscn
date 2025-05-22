@@ -1,9 +1,0 @@
-[gd_scene format=3 uid="uid://cdcvfu1saux3v"]
-
-[node name="AfterStart" type="Node2D"]
-
-[node name="Button" type="Button" parent="."]
-offset_left = 215.0
-offset_top = 300.0
-offset_right = 797.0
-offset_bottom = 555.0

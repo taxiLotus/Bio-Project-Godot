@@ -5,20 +5,19 @@ var defOpen := false
 var all_organ_parts
 
 func _ready() -> void:
-	var organ_path = get_node("../../../").get_child(0).get_child(0).get_child(0).get_path()
+	var organ_path = get_node("../../../").get_child(0).get_child(0).get_path()
 	all_organ_parts = get_all_children(organ_path)
-	all_organ_parts.pop_front()
 	connect_signals()
 	alignment = HORIZONTAL_ALIGNMENT_CENTER
 	self.connect("mouse_entered", _on_mouse_entered)
 	self.connect("mouse_exited", _on_mouse_exited)
-	self.pressed.connect(_on_pressed)
+	self.connect("pressed", _on_pressed)
 
 func connect_signals():
 	var check_organs : int = 0
 	while check_organs < all_organ_parts.size():
 		var organ = all_organ_parts[check_organs]
-		organ.pressed.connect(_on_organ_pressed(organ.name))
+		organ.connect("pressed", _on_organ_pressed.bind(organ.name))
 		check_organs += 1
 
 func get_all_children(in_node_path: NodePath, arr := []):

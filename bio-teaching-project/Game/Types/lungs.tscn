@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://dd7yjd725yetg"]
+[gd_scene load_steps=19 format=3 uid="uid://dd7yjd725yetg"]
 
 [ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://game/types/container.gd" id="1_wysfe"]
 [ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/misc/darken_shader.gdshader" id="2_4njvd"]
@@ -14,6 +14,7 @@
 [ext_resource type="BitMap" uid="uid://xb2ron0imokq" path="res://sprites/bronchus_click.png" id="12_8poln"]
 [ext_resource type="Texture2D" uid="uid://cruo3441ehimf" path="res://sprites/bronchiole.png" id="13_ady3w"]
 [ext_resource type="BitMap" uid="uid://bo8dlxexy5ge0" path="res://sprites/bronchiole_click.png" id="14_xktvh"]
+[ext_resource type="Script" uid="uid://garxgejrjhc6" path="res://game/types/bronchiole.gd" id="15_0pjs1"]
 [ext_resource type="Texture2D" uid="uid://dus7evj4gscq0" path="res://game/types/alveoli.png" id="17_fu4iy"]
 [ext_resource type="BitMap" uid="uid://bdjnhbhv2sx0r" path="res://game/types/alveoli_click.png" id="18_nvi08"]
 
@@ -27,10 +28,10 @@ anchors_preset = 0
 
 [node name="Container" type="AspectRatioContainer" parent="."]
 layout_mode = 0
-offset_left = 41.0
-offset_top = 33.0
-offset_right = 919.0
-offset_bottom = 553.0
+offset_left = 144.0
+offset_top = 29.0
+offset_right = 1022.0
+offset_bottom = 549.0
 script = ExtResource("1_wysfe")
 
 [node name="FullSystemSprite" type="TextureRect" parent="Container"]
@@ -79,7 +80,7 @@ texture_focused = ExtResource("13_ady3w")
 texture_click_mask = ExtResource("14_xktvh")
 ignore_texture_size = true
 stretch_mode = 0
-script = ExtResource("10_54up8")
+script = ExtResource("15_0pjs1")
 
 [node name="Alveoli" type="TextureButton" parent="Container"]
 layout_mode = 2

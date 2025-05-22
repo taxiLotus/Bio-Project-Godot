@@ -8,9 +8,12 @@ func _on_mouse_exited() -> void:
 
 func _on_focus_entered() -> void:
 	OrganBus.focus_entered.emit()
-
+	
+func _on_pressed() -> void:
+	OrganBus.pressed.emit()
+	
 func _on_focus_exited() -> void:
 	OrganBus.focus_exited.emit()
 
-func _on_pressed() -> void:
-	OrganBus.pressed.emit()
+
+	

@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://cpqfmm47kfr2y"]
+[gd_scene load_steps=13 format=3 uid="uid://ddtnp6ggmxopu"]
 
 [ext_resource type="Script" uid="uid://ct6k550evtolw" path="res://game/scenes/screens/organ_screen.gd" id="1_b6hia"]
 [ext_resource type="Script" uid="uid://c4jqfa6o58u8g" path="res://game/scenes/screens/scroll_container.gd" id="1_ghesr"]
@@ -22,7 +22,7 @@ shader_parameter/difference = 0.0
 default_font = ExtResource("8_42iub")
 RichTextLabel/colors/default_color = Color(0, 0, 0, 1)
 
-[node name="AfterStart2" type="Control"]
+[node name="AfterStart3" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_b6hia")
@@ -67,12 +67,12 @@ ignore_texture_size = true
 stretch_mode = 0
 script = ExtResource("4_emm2d")
 
-[node name="TabContainer2" parent="." instance=ExtResource("5_lltde")]
+[node name="TabContainer" parent="." instance=ExtResource("5_lltde")]
 layout_mode = 0
 offset_left = 35.0
-offset_top = 682.0
+offset_top = 681.0
 offset_right = 650.0
-offset_bottom = 777.0
+offset_bottom = 776.0
 
 [node name="CurrentlyAt" type="RichTextLabel" parent="."]
 layout_mode = 0

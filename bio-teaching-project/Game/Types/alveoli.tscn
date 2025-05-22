@@ -1,123 +1,30 @@
-[gd_scene load_steps=18 format=3 uid="uid://bppoxwmdj7tcu"]
+[gd_scene load_steps=5 format=3 uid="uid://cvuojkg204gds"]
 
-[ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://game/types/container.gd" id="1_i3xke"]
-[ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/misc/darken_shader.gdshader" id="2_lg7a6"]
-[ext_resource type="Texture2D" uid="uid://bcb7tm4npwoef" path="res://sprites/bronchiole_closeup.png" id="3_piibh"]
-[ext_resource type="Script" uid="uid://cgkq4rfvoyif3" path="res://game/types/organ_sprite.gd" id="4_hn5hd"]
-[ext_resource type="Texture2D" uid="uid://jn3abfrvfdkd" path="res://sprites/bronchiole_cutout.png" id="5_lhkum"]
-[ext_resource type="BitMap" uid="uid://dnqmtno0yo5tx" path="res://sprites/bronchiole_cutout_click.png" id="6_u03vb"]
-[ext_resource type="Script" uid="uid://dntxljwu3h5mw" path="res://game/types/atrium.gd" id="7_urs34"]
-[ext_resource type="Texture2D" uid="uid://dy4uj10e4uluh" path="res://sprites/bronchiole_alveoli.png" id="8_t7crg"]
-[ext_resource type="BitMap" uid="uid://rfb7bl50vcd6" path="res://sprites/bronchiole_alveoli_click.png" id="9_wjjs1"]
-[ext_resource type="Script" uid="uid://fxjw0vu7urr0" path="res://game/types/ventricle.gd" id="10_e8jcd"]
-[ext_resource type="Texture2D" uid="uid://b0hf5ty7ncoko" path="res://sprites/bronchiole_vein.png" id="11_6c6e2"]
-[ext_resource type="BitMap" uid="uid://cm3gemxl67axe" path="res://sprites/bronchiole_vein_click.png" id="12_ajvi5"]
-[ext_resource type="Texture2D" uid="uid://cb45ji5m6lqqr" path="res://sprites/bronchiole_artery.png" id="13_ryofx"]
-[ext_resource type="BitMap" uid="uid://beaddmk88tfi3" path="res://sprites/bronchiole_artery_click.png" id="14_nqvy2"]
-[ext_resource type="Texture2D" uid="uid://dhx1xjdinq72t" path="res://sprites/bronchiole_capillary.png" id="15_dyqms"]
-[ext_resource type="BitMap" uid="uid://ng2lejdustiw" path="res://sprites/bronchiole_capillary_click.png" id="16_vfc1y"]
+[ext_resource type="Shader" uid="uid://4y13lwtsy0di" path="res://game/types/alveoli.gdshader" id="1_6rv72"]
+[ext_resource type="Script" uid="uid://wl80y6m4sfb3" path="res://game/types/video_stream_player.gd" id="2_6rv72"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_uwrxs"]
-shader = ExtResource("2_lg7a6")
-shader_parameter/difference = 0.0
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_630co"]
+shader = ExtResource("1_6rv72")
+shader_parameter/chroma_key_color = Color(0, 0, 0, 1)
+shader_parameter/pickup_range = 0.495
+shader_parameter/fade_amount = 0.1
+
+[sub_resource type="VideoStreamTheora" id="VideoStreamTheora_m2aci"]
+file = "res://sprites/alveoli_anim.ogv"
 
 [node name="Alveoli" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 
-[node name="Container" type="AspectRatioContainer" parent="."]
-layout_mode = 0
-offset_left = 41.0
-offset_top = 33.0
-offset_right = 919.0
-offset_bottom = 553.0
-script = ExtResource("1_i3xke")
-
-[node name="FullSystemSprite" type="TextureRect" parent="Container"]
-material = SubResource("ShaderMaterial_uwrxs")
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+material = SubResource("ShaderMaterial_630co")
 layout_mode = 2
-focus_mode = 1
-texture = ExtResource("3_piibh")
-expand_mode = 1
-script = ExtResource("4_hn5hd")
-
-[node name="Bronchiole" type="TextureButton" parent="Container"]
-layout_mode = 2
-texture_pressed = ExtResource("5_lhkum")
-texture_hover = ExtResource("5_lhkum")
-texture_focused = ExtResource("5_lhkum")
-texture_click_mask = ExtResource("6_u03vb")
-ignore_texture_size = true
-stretch_mode = 0
-script = ExtResource("7_urs34")
-
-[node name="Alveoli" type="TextureButton" parent="Container"]
-layout_mode = 2
-texture_pressed = ExtResource("8_t7crg")
-texture_hover = ExtResource("8_t7crg")
-texture_focused = ExtResource("8_t7crg")
-texture_click_mask = ExtResource("9_wjjs1")
-ignore_texture_size = true
-stretch_mode = 0
-script = ExtResource("10_e8jcd")
-
-[node name="Vein" type="TextureButton" parent="Container"]
-layout_mode = 2
-texture_pressed = ExtResource("11_6c6e2")
-texture_hover = ExtResource("11_6c6e2")
-texture_focused = ExtResource("11_6c6e2")
-texture_click_mask = ExtResource("12_ajvi5")
-ignore_texture_size = true
-stretch_mode = 0
-script = ExtResource("10_e8jcd")
-
-[node name="Artery" type="TextureButton" parent="Container"]
-layout_mode = 2
-texture_pressed = ExtResource("13_ryofx")
-texture_hover = ExtResource("13_ryofx")
-texture_focused = ExtResource("13_ryofx")
-texture_click_mask = ExtResource("14_nqvy2")
-ignore_texture_size = true
-stretch_mode = 0
-script = ExtResource("10_e8jcd")
-
-[node name="Capillary" type="TextureButton" parent="Container"]
-layout_mode = 2
-texture_pressed = ExtResource("15_dyqms")
-texture_hover = ExtResource("15_dyqms")
-texture_focused = ExtResource("15_dyqms")
-texture_click_mask = ExtResource("16_vfc1y")
-ignore_texture_size = true
-stretch_mode = 0
-script = ExtResource("10_e8jcd")
-
-[connection signal="focus_entered" from="Container/Bronchiole" to="Container/FullSystemSprite" method="_on_atria_focus_entered"]
-[connection signal="focus_entered" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_focus_entered"]
-[connection signal="focus_exited" from="Container/Bronchiole" to="Container/FullSystemSprite" method="_on_atria_focus_exited"]
-[connection signal="focus_exited" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_focus_exited"]
-[connection signal="mouse_entered" from="Container/Bronchiole" to="Container/FullSystemSprite" method="_on_atria_mouse_entered"]
-[connection signal="mouse_entered" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="Container/Bronchiole" to="Container/FullSystemSprite" method="_on_atria_mouse_exited"]
-[connection signal="mouse_exited" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_mouse_exited"]
-[connection signal="pressed" from="Container/Bronchiole" to="Container/FullSystemSprite" method="_on_atria_pressed"]
-[connection signal="pressed" from="Container/Bronchiole" to="Container/Bronchiole" method="_on_pressed"]
-[connection signal="focus_entered" from="Container/Alveoli" to="Container/Alveoli" method="_on_focus_entered"]
-[connection signal="focus_exited" from="Container/Alveoli" to="Container/Alveoli" method="_on_focus_exited"]
-[connection signal="mouse_entered" from="Container/Alveoli" to="Container/Alveoli" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="Container/Alveoli" to="Container/Alveoli" method="_on_mouse_exited"]
-[connection signal="pressed" from="Container/Alveoli" to="Container/Alveoli" method="_on_pressed"]
-[connection signal="focus_entered" from="Container/Vein" to="Container/Vein" method="_on_focus_entered"]
-[connection signal="focus_exited" from="Container/Vein" to="Container/Vein" method="_on_focus_exited"]
-[connection signal="mouse_entered" from="Container/Vein" to="Container/Vein" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="Container/Vein" to="Container/Vein" method="_on_mouse_exited"]
-[connection signal="pressed" from="Container/Vein" to="Container/Vein" method="_on_pressed"]
-[connection signal="focus_entered" from="Container/Artery" to="Container/Artery" method="_on_focus_entered"]
-[connection signal="focus_exited" from="Container/Artery" to="Container/Artery" method="_on_focus_exited"]
-[connection signal="mouse_entered" from="Container/Artery" to="Container/Artery" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="Container/Artery" to="Container/Artery" method="_on_mouse_exited"]
-[connection signal="pressed" from="Container/Artery" to="Container/Artery" method="_on_pressed"]
-[connection signal="focus_entered" from="Container/Capillary" to="Container/Capillary" method="_on_focus_entered"]
-[connection signal="focus_exited" from="Container/Capillary" to="Container/Capillary" method="_on_focus_exited"]
-[connection signal="mouse_entered" from="Container/Capillary" to="Container/Capillary" method="_on_mouse_entered"]
-[connection signal="mouse_exited" from="Container/Capillary" to="Container/Capillary" method="_on_mouse_exited"]
-[connection signal="pressed" from="Container/Capillary" to="Container/Capillary" method="_on_pressed"]
+offset_left = 365.0
+offset_top = 111.0
+offset_right = 752.0
+offset_bottom = 498.0
+stream = SubResource("VideoStreamTheora_m2aci")
+autoplay = true
+expand = true
+loop = true
+script = ExtResource("2_6rv72")

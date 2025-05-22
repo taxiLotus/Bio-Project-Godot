@@ -1,9 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bfmol2xktppaq"]
 
+[ext_resource type="Theme" uid="uid://c77hi8qng7ag8" path="res://game/misc/theme.tres" id="1_2mkqi"]
 [ext_resource type="Script" uid="uid://d2fqdj0wpecf5" path="res://game/types/nav_button.gd" id="1_ibbje"]
-
-[sub_resource type="Theme" id="Theme_ibbje"]
-Button/colors/icon_normal_color = Color(1, 1, 1, 0.466667)
 
 [node name="NavButton" type="Button"]
 custom_minimum_size = Vector2(100, 0)
@@ -11,7 +9,7 @@ offset_right = 8.0
 offset_bottom = 8.0
 size_flags_horizontal = 2
 size_flags_vertical = 3
-theme = SubResource("Theme_ibbje")
+theme = ExtResource("1_2mkqi")
 autowrap_mode = 3
 icon_alignment = 1
 expand_icon = true

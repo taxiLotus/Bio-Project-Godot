@@ -1,7 +1,9 @@
+VideoStreamPlayer
+Button
+AnimatedSprite2D
 ColorRect
 HTTPRequest
 HBoxContainer
-Button
 TextureButton
 ScrollContainer
 TextureRect
@@ -10,6 +12,3 @@ Sprite2D
 AspectRatioContainer
 Container
 Control
-PanelContainer
-Panel
-TabContainer
