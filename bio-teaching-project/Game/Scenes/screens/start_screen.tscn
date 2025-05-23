@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bksc2gg013slu" path="res://sprites/play_heart_hover.png" id="4_vc0hc"]
 [ext_resource type="Script" uid="uid://bw0lutq56dl38" path="res://game/scenes/screens/texture_button.gd" id="5_bdyd4"]
 
-[node name="StartScreen" type="Control"]
+[node name="StartScreen2" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0

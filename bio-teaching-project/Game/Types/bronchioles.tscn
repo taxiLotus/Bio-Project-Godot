@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://bppoxwmdj7tcu"]
+[gd_scene load_steps=19 format=3 uid="uid://lgiupjcu3kys"]
 
 [ext_resource type="Script" uid="uid://dpw6x3enjm306" path="res://game/types/container.gd" id="1_i3xke"]
 [ext_resource type="Shader" uid="uid://bqhxpe04s3u7r" path="res://game/misc/darken_shader.gdshader" id="2_lg7a6"]

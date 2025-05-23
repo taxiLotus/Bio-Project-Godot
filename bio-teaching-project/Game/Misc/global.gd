@@ -58,8 +58,10 @@ func goto_scene(path):
 	path = path.to_lower()
 	_deferred_goto_scene.call_deferred(path)
 	
+var s
 func _deferred_goto_scene(path):
 	current_scene.free()
-	var s = ResourceLoader.load(path.to_lower())
+	var t = path.to_lower()
+	var s = ResourceLoader.load(t)
 	current_scene = s.instantiate()
 	get_tree().root.get_child(-1).get_child(-1).add_child(current_scene)

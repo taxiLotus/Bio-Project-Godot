@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://6sxxul5ynxuf"]
 
-[ext_resource type="Script" uid="uid://dm2aktxduvk4g" path="res://game/scenes/tab_container.gd" id="1_bmghs"]
-[ext_resource type="Script" uid="uid://bda0k2cy21u13" path="res://game/scenes/nav_container.gd" id="2_euu8s"]
+[ext_resource type="Script" uid="uid://dm2aktxduvk4g" path="res://game/scenes/tab_container.gd" id="1_rex21"]
+[ext_resource type="Script" uid="uid://bda0k2cy21u13" path="res://game/scenes/nav_container.gd" id="2_sa45p"]
 
 [node name="TabContainer" type="ScrollContainer"]
 offset_left = 39.0
@@ -9,9 +9,9 @@ offset_top = 706.0
 offset_right = 640.0
 offset_bottom = 800.0
 vertical_scroll_mode = 0
-script = ExtResource("1_bmghs")
+script = ExtResource("1_rex21")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 2
 size_flags_vertical = 3
-script = ExtResource("2_euu8s")
+script = ExtResource("2_sa45p")

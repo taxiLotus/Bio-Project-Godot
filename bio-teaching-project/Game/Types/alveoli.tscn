@@ -1,16 +1,14 @@
 [gd_scene load_steps=5 format=3 uid="uid://cvuojkg204gds"]
 
 [ext_resource type="Shader" uid="uid://4y13lwtsy0di" path="res://game/types/alveoli.gdshader" id="1_6rv72"]
-[ext_resource type="Script" uid="uid://wl80y6m4sfb3" path="res://game/types/video_stream_player.gd" id="2_6rv72"]
+[ext_resource type="Script" path="res://game/types/video_stream_player.gd" id="2_6rv72"]
+[ext_resource type="VideoStream" path="res://sprites/alveoli_anim (online-video-cutter.com).ogv" id="2_630co"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_630co"]
 shader = ExtResource("1_6rv72")
 shader_parameter/chroma_key_color = Color(0, 0, 0, 1)
 shader_parameter/pickup_range = 0.495
 shader_parameter/fade_amount = 0.1
-
-[sub_resource type="VideoStreamTheora" id="VideoStreamTheora_m2aci"]
-file = "res://sprites/alveoli_anim.ogv"
 
 [node name="Alveoli" type="Control"]
 layout_mode = 3
@@ -23,7 +21,7 @@ offset_left = 365.0
 offset_top = 111.0
 offset_right = 752.0
 offset_bottom = 498.0
-stream = SubResource("VideoStreamTheora_m2aci")
+stream = ExtResource("2_630co")
 autoplay = true
 expand = true
 loop = true

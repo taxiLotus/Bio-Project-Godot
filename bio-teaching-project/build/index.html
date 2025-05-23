@@ -146,6 +146,7 @@
     </style>
     <link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
+<link rel="manifest" href="index.manifest.json">
 <script src="coi-serviceworker.js"></script>
 </head>
 
@@ -174,7 +175,7 @@
     <script type='text/javascript' src='index.js'></script>
     <script type='text/javascript'>//<![CDATA[
 
-        const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":false,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":21157344,"index.wasm":52126319},"focusCanvas":true,"gdextensionLibs":[]};
+        const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":21167504,"index.wasm":52126319},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":"index.service.worker.js"};
         var engine = new Engine(GODOT_CONFIG);
 
         (function () {

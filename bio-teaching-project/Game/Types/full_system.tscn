@@ -13,28 +13,28 @@
 [ext_resource type="Texture2D" uid="uid://3hbueiu386ys" path="res://sprites/lung_hover.png" id="10_bsw68"]
 [ext_resource type="BitMap" uid="uid://5dss08qcxcon" path="res://sprites/lung_click.png" id="11_ssn5b"]
 [ext_resource type="Texture2D" uid="uid://c70gi7ktjriqk" path="res://game/types/capillary_beds.png" id="13_gniwe"]
-[ext_resource type="Script" uid="uid://dtxujdo54sp4h" path="res://game/types/lung.gd" id="13_jlbcm"]
+[ext_resource type="Script" path="res://game/types/lung.gd" id="13_jlbcm"]
 [ext_resource type="BitMap" uid="uid://71iiq28q1poy" path="res://sprites/capillary_beds_click.png" id="14_e4qfd"]
 [ext_resource type="Texture2D" uid="uid://sv00df8iko2k" path="res://sprites/arteries.png" id="15_fg73w"]
 [ext_resource type="BitMap" uid="uid://cu86fyyvtv7s1" path="res://sprites/arteries_click.png" id="16_ktf8w"]
 [ext_resource type="Texture2D" uid="uid://dmcrw610x4mut" path="res://sprites/veins.png" id="17_m1yq2"]
 [ext_resource type="BitMap" uid="uid://doilrqx701xmu" path="res://sprites/veins_click.png" id="18_g3wav"]
 [ext_resource type="Shader" uid="uid://4y13lwtsy0di" path="res://game/types/alveoli.gdshader" id="20_x48pu"]
-[ext_resource type="VideoStream" uid="uid://bfh3rioln8wpw" path="res://sprites/circulatory_2.ogv" id="21_ofc7j"]
-[ext_resource type="Script" uid="uid://dbej47787qdby" path="res://game/types/bloodpath.gd" id="21_x48pu"]
+[ext_resource type="VideoStream" path="res://sprites/circulatory_2.ogv" id="21_ofc7j"]
+[ext_resource type="Script" path="res://game/types/bloodpath.gd" id="21_x48pu"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_uwrxs"]
 shader = ExtResource("1_2rxd4")
 shader_parameter/difference = 0.0
-
-[sub_resource type="Theme" id="Theme_jlbcm"]
-Button/font_sizes/font_size = 500
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ofc7j"]
 shader = ExtResource("20_x48pu")
 shader_parameter/chroma_key_color = Color(0, 0, 0, 1)
 shader_parameter/pickup_range = 0.1
 shader_parameter/fade_amount = 0.1
+
+[sub_resource type="Theme" id="Theme_jlbcm"]
+Button/font_sizes/font_size = 500
 
 [node name="FullSystem" type="Control"]
 layout_mode = 3
@@ -116,6 +116,19 @@ ignore_texture_size = true
 stretch_mode = 0
 script = ExtResource("9_7tvh6")
 
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+material = SubResource("ShaderMaterial_ofc7j")
+layout_mode = 0
+offset_left = 214.0
+offset_top = 19.0
+offset_right = 754.0
+offset_bottom = 549.0
+mouse_filter = 2
+stream = ExtResource("21_ofc7j")
+expand = true
+loop = true
+script = ExtResource("21_x48pu")
+
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
 offset_left = 730.0
@@ -125,18 +138,6 @@ offset_bottom = 1334.0
 scale = Vector2(0.05, 0.05)
 theme = SubResource("Theme_jlbcm")
 text = "  Track Blood  "
-
-[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
-material = SubResource("ShaderMaterial_ofc7j")
-layout_mode = 0
-offset_left = 214.0
-offset_top = 19.0
-offset_right = 754.0
-offset_bottom = 549.0
-stream = ExtResource("21_ofc7j")
-expand = true
-loop = true
-script = ExtResource("21_x48pu")
 
 [connection signal="focus_entered" from="Container/Atrium" to="Container/FullSystemSprite" method="_on_atria_focus_entered"]
 [connection signal="focus_entered" from="Container/Atrium" to="Container/Atrium" method="_on_focus_entered"]

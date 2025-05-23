@@ -14,7 +14,7 @@
 [ext_resource type="BitMap" uid="uid://xb2ron0imokq" path="res://sprites/bronchus_click.png" id="12_8poln"]
 [ext_resource type="Texture2D" uid="uid://cruo3441ehimf" path="res://sprites/bronchiole.png" id="13_ady3w"]
 [ext_resource type="BitMap" uid="uid://bo8dlxexy5ge0" path="res://sprites/bronchiole_click.png" id="14_xktvh"]
-[ext_resource type="Script" uid="uid://garxgejrjhc6" path="res://game/types/bronchiole.gd" id="15_0pjs1"]
+[ext_resource type="Script" path="res://game/types/bronchiole.gd" id="15_0pjs1"]
 [ext_resource type="Texture2D" uid="uid://dus7evj4gscq0" path="res://game/types/alveoli.png" id="17_fu4iy"]
 [ext_resource type="BitMap" uid="uid://bdjnhbhv2sx0r" path="res://game/types/alveoli_click.png" id="18_nvi08"]
 
